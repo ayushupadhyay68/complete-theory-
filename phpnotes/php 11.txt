@@ -1,0 +1,80 @@
+	
+	
+	Database -: 
+	
+		Database -> tables -> rows -> columns -> data
+		
+		
+		SQL  Queries -:
+		
+			i) insert query - is used to fill data in database server.
+			
+				syntax -: to fill data for all the columns
+				
+					insert into table_name values(column1, column2, column3,.....);
+					
+				
+				syntax -: to fill the data for specific columns
+					
+					insert into (col1,col2,col3) values (col1data,......);
+					
+					
+			ii) select query - retrieve the data from database -:
+			
+				syntax 1 -:	to retrive data for all the columns
+					
+					select * from tablename;
+					
+					
+				syntax 2 -: to retrive data for specific columns
+				
+				
+					select column1,column2.... from table_name;
+					
+					
+			
+			iii) Update query - is used to update the data for specific columns
+					
+					syntax -:
+					
+						update table_name set column1 = value, column2 = value......
+					
+					
+			
+				
+			iv) delete data -:
+			
+				syntax - delete record
+				
+					delete from table_name
+				
+	
+	
+			where clause -: to modify the behaviour of query
+			
+				syntax -:
+				
+					query where column = value
+					
+					
+			e.g. -:
+				
+				delete from users where lastname = "singh" or gender = "female";
+				update users set lastname = "king" where uid = 2 and firstname = "aman";
+				
+				
+			and / or Operator  -:
+		
+		
+	Connecting to Mysql Database Server -:
+	
+		mysqli_connect(host,user,password,database_name) - is used to connect to mysql database server and return the resource handler.
+		
+		mysqli_close(con) - is used to close the given database.
+		
+		
+		mysqli_connect_error() - is used to return the error while connecting to the database server
+		
+		mysqli_connect_errno() - returns the no / code of the error if connection does not happen.
+		
+		

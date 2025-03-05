@@ -1,0 +1,24 @@
+	
+	Connecting to Mysql Database Server -:
+	
+		mysqli_connect(host,user,password,database_name) - is used to connect to mysql database server and return the resource handler.
+		
+		mysqli_close(con) - is used to close the given database.
+		
+		
+		mysqli_connect_error() - is used to return the error while connecting to the database server
+		
+		mysqli_connect_errno() - returns the no / code of the error if connection does not happen.
+		
+		
+		mysqli_query($con,query) - is used to execute the given query on the given database connection and returns the result resource.
+		
+		mysqli_error($con) - is used to return the error while performing the query 
+		mysqli_errno($con) - is used to return the code of the error while performing the query on to database server
+		
+		mysqli_affected_rows($con) - is used to detect the affected row on database server
+		
+		mysqli_fetch_row($result) - is used to return the record array while performing database
+		
+		mysqli_fetch_array($result) - is used to return the record array both the indexed and associative
+		
