@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Working with javascript!!!! World of powerful programming language
+    </title>
+    <script>
+      // sayHi();
+
+      /*  var title = "Javascript";
+        var version = 1;
+        var year = 2024;
+
+        document.write("<h1>Hello World this is javascript here</h1>");
+        document.write(title); */
+
+      // let i1 = 10;
+
+      // console.log("Hello there working.............");
+      // console.error("not a number value given");
+
+      let n1 = "0";
+      let n2 = 30;
+
+      // document.write(n1 % n2);
+      // n1 %= 2;
+      // document.write(n1 != "10" || n2 > 20);
+
+      // document.write(!n1);
+
+      let name = "Aysuh" + " ";
+
+      name += "Upadhyay";
+
+      // document.write("Your name = ", name , "You've assigned "+n2+"  new task");
+
+      /* 
+            document.write(n2++);
+            document.write(--n2);
+          */
+
+      //   document.write("Hello", name , "<br>");
+
+      /*   var weather = "Dry";
+
+        var light = weather == "Rainy"? "Off" : "On";
+
+        document.write("Light is " + light); */
+
+      let time = "9";
+
+      /* if(time == "12"){
+
+
+            document.write("It's 12 PM Going Home Work Done.");
+           
+
+        }else if(time == "2"){
+
+            document.write("It's Lunch Time");
+
+
+        }else if(time == "6"){
+
+            document.write("It's Pack up time");
+
+        }else{
+            document.write("Do Your work!!!!");
+        }
+ */
+
+      /* 
+        switch(time){
+
+            case "12":
+            document.write("its 12 work done.");
+            break;
+
+            case "9":
+            document.write("It's Lunch Time now");
+            break;
+
+            case "6":
+            document.write("It's Pack up time");
+            break;
+
+            default:
+
+            document.write("It's Sleeping Time");
+
+
+        } */
+
+      /* for(let i = 1; i <= 100; i++){
+
+            // document.write("i = " + i + "<br>");
+            // document.write("OM NAMAH SHIVAY "+i+" <br>");
+
+        } */
+
+      /*  for(let i = 10; i > 0; i--){
+
+            document.write("i = "+i+" <br>");
+            
+        } */
+
+      /* createTable(99);
+    createTable(102);
+      function createTable(num) {
+        let table = num;
+
+        for (let i = 1; i <= 10; i++) {
+          document.write(table + "X" + i + " = " + table * i + "<br>");
+        }
+      }
+ */
+      /* function sayHi(){
+
+            document.write("Hi Dude.");
+
+        }
+ */
+      /* greetPeople("Hello india","$",20);
+        greetPeople("Hello Folks","=",30);
+ */
+      /* function greetPeople(greetmsg,symbol,times){
+
+            for(let i = 0; i <= times; i++){
+
+                symbol += symbol;
+
+            }
+
+            document.write("<h2>"+greetmsg+""+symbol+"</h2>");
+
+        } */
+
+      let num1 = 1;
+
+      /*  do{
+        num1++;
+        if(num1 == 7){
+             continue;
+
+        }
+          document.write("num1 = " + num1);
+
+        
+       }
+       while(num1 < 11) */
+
+      /* while(num1 > 11){
+
+    document.write("num1 = " + num1);
+
+    num1++;
+
+ }
+
+       */
+
+      /*  function gettopic() {
+        return "javascript";
+      }
+ */
+      // document.write(displayTopics(gettopic()));
+      /*       function displayTopics(cp) {
+        if (cp != undefined) {
+          document.write("<h2> Your Current Topic is " + cp + "</h2>");
+          return 1;
+        }
+      }
+      if(displayTopics()){
+
+        document.write("Okay, You're eligible for Other Topics now");
+
+      }else{
+
+            document.write("Mmmmm. Do Javascript First.");
+        
+      } */
+      //  document.write(displayTopics("JS"));
+
+      function displayDashes(scount, sign) {
+        for (let i = 1; i <= scount; i++) {
+          document.write(sign);
+        }
+
+        document.write("<br>");
+        return "Print Done";
+      }
+
+      /*
+    document.write("<h1>This is just a heading test here</h1>");
+   document.write(displayDashes(50,"#"));
+
+    document.write("<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore vel pariatur nisi accusantium, doloribus exercitationem optio commodi voluptates beatae aliquam adipisci ex tenetur natus ipsa dicta reiciendis quod in soluta impedit asperiores maiores minima? Error sequi fugiat natus nobis ratione!</p>");
+    var rs = displayDashes(200,"$"); */
+
+      /* function print_bill(pro_name, pro_price, pro_tax, pro_discount) {
+        let taxvalue = pro_price * (pro_tax / 100);
+        let discountvalue = (pro_price * pro_discount) / 100;
+        let netprice = pro_price + taxvalue - discountvalue;
+        document.write("<h2>Your Product Name = " + pro_name + "</h2>");
+        document.write("<h3>Your product Price = " + pro_price + "</h3>");
+        document.write("<h3>Your product Tax = " + taxvalue + "</h3>");
+        document.write(
+          "<h3>Your product Discount = " + discountvalue + "</h3>"
+        );
+        // document.write("<h3>Your product Net Price = " + netprice + "</h3>");
+        return netprice;
+      }
+
+      addition_discount(print_bill("Ipad",30000,18,2));
+
+
+
+      function addition_discount(amount) {
+
+        if(amount >= 50000){
+
+            let finalamount = amount - (amount * 5 / 100);
+            document.write("<h3>Your product amount after bonus discount = "+finalamount+"</h3>");
+
+        }
+        else{
+          document.write("<h3>This product is already discounted. Thanks Amount = "+amount+"</h3>");
+        }
+
+      }
+ */
+      /*       let cash = 5000000;
+      function amt(am /*funcrtion parameter*/ //){
+
+      /*   let a = 10; // local variable
+        cash = 10000000; // global variable
+        document.write(cash); */
+
+      // }
+
+      /*  document.write(cash);
+      amt(30); */
+
+      // OBJECTS========================
+
+      let sections = {
+        s1: {
+          sec_name: "header",
+          textcolor: "white",
+          bgcolor: "black",
+        },
+        s2: "Slider",
+        s3: "Sidebar",
+        s4: "Body",
+        s5: "Footer",
+      };
+
+      // document.write(sections.s1.sec_name);
+
+      // document.write(JSON.stringify(sections));
+
+      // ARRAYS ==========================================================
+
+      /*  let brands = new Array(
+        "Apple",
+        "Asus",
+        "Acer",
+        "Lenovo",
+        "HP",
+        "Dell",
+        "MSI",
+        "Samsung",
+        "VIVO",
+        "OPPO",
+        "Realme",
+        "motorolla",
+        "Nokia",
+        "One Plus"
+      );
+
+      let students = ["Anshika","Anushkar","Ayush"]; */
+
+      // document.write(brands.concat(students));
+
+      // document.write(brands.indexOf("Apple"));
+
+      // document.write(brands.lastIndexOf("Apple"));
+
+      // brands.unshift("sony","intel","intex","infinix");
+
+      // brands.splice(2,4,"poco","pogo","pepe");
+
+      // document.write(brands.join("----"));
+
+      // document.write(brands.pop());
+
+      /* let selected_brands = brands.slice(brands.indexOf("Lenovo"),brands.lastIndexOf("Nokia"));
+
+      document.write(selected_brands); */
+
+      // brands.sort();
+
+      // document.write(brands.reverse());
+
+      /* document.write("We have total " + brands.length + " brands");
+
+      document.write("<ul>");
+      for(let i = 0; i < brands.length; i++){
+
+        document.write("<li>"+brands[i]+"</li>");
+
+      }
+
+      document.write("</ul>"); */
+
+      // let product = [
+      //   {
+      //     name: "Apple",
+      //     p1: "IMAC",
+      //     p2: "IPAD",
+
+      //   },
+      //   {
+
+      //     name:"Samsung",
+      //     p1:"galaxy s20 fe",
+      //     p2:"S24 Ultra"
+
+      //   }
+      // ];
+
+      // document.write(brands[3-1]);
+
+      // brands[2] = "Sony";
+
+      // document.write(brands);
+
+      // document.write(product[0].name);
+
+      // =========================== STRINGS MANIPULATION
+
+      var message = "We are learning the most in demand language javascript";
+
+      // document.write(message.length);
+
+      // document.write(message.charCodeAt(3));
+
+      // document.write(message.indexOf("are"));
+
+      // document.write(message.search("mosta"));
+
+      // document.write(message.toUpperCase());
+
+      // document.write(message.slice(message.search("learning"),message.search("language")));
+
+      // document.write(message.substring(2,20));
+
+      // document.write(message.substr(3,10));
+
+      // document.write(message.replace("javascript","JS"));
+
+      // document.write(message.split(" "));
+
+      // let nm = 300;
+
+      // document.write(nm.toString());
+
+      // document.write(message.match("dmand"));
+      /*  printSymbols(20);
+     function printSymbols(times,symbol) {
+
+      // document.write(symbol);
+
+      for (let i = 1; i <= times; i++) {
+        for (let k = 1; k <= i; k++) {
+
+          if(symbol == undefined){
+            document.write(k + "");
+          }else{
+            document.write(symbol);
+          }
+         
+        }
+
+        document.write("<br>");
+      }
+      for (let i = times; i > 0; i--) {
+        for (let k = 1; k < i; k++) {
+          if(symbol == undefined){
+            document.write(k + "");
+          }else{
+            document.write(symbol);
+          }
+        } 
+
+        document.write("<br>");
+      }      
+
+     } */
+
+      // =================================REGULAR EXPRESSION
+      /* 
+      let pt = /Js/i;
+
+      // let pt1 = /^[a-z]{3}[ ]?(nitish|nitin|ayush)+[/]{1}[4-9]{4}$/i;
+
+      let mp = /^[0-9]{10}$/;
+
+      let vl = "abc nitish/8476";
+
+      // let mobile = "7412589630";
+
+      let np = /^[a-z]{3,50}([ ]{1}[a-z]{0,30})?[ ]{1}[a-z]{3,50}$/i;
+
+      let sname = "Anushka Raj Jain";
+
+      document.write(np.test(sname)); */
+
+      let strn = "75.9  hello 123";
+
+      // document.write(parseFloat(strn));
+
+      let snum = "78.99";
+
+      // document.write(Number(snum) + 30);
+
+      // document.write(isNaN(strn))
+
+      // document.write(typeof snum);
+
+      // MATH OBJECTS =??????///////////////////////////////////////////===============
+
+      // document.write(Math.max(10,40,1,60));
+      // document.write(Math.pow(3,3));
+      // document.write(Math.round(Math.random()*100));
+
+      // document.write(Math.round(8.44));
+
+      // Working with Date and time ====================================================
+
+      /* let tmr =  setInterval(function(){
+        
+        let d = new Date();
+        if(d.getMinutes() == 40){
+
+          alert("Yes Working");
+
+        }
+
+      },1000); */
+
+      /*
+      document.write(getFullMonth(d));
+      function getFullMonth(dt) {
+        let d = dt;
+
+        let m = d.getMonth();
+        let month = "";
+
+        switch (m) {
+          case 0:
+            month = "January";
+            break;
+
+          case 1:
+            month = "February";
+            break;
+
+          case 5:
+            month = "June";
+            break;
+        }
+
+        return month;
+      } */
+
+      function generateOTP() {
+        let pl1 = Math.round(Math.random() * 9);
+        let pl2 = Math.round(Math.random() * 9);
+        let pl3 = Math.round(Math.random() * 9);
+        let pl4 = Math.round(Math.random() * 9);
+
+        return pl1 + "" + pl2 + "" + pl3 + "" + pl4;
+      }
+
+      // alert("only 15 minutes left.\n Kindly \"Make haste\"");
+
+      /*  let vl = prompt("Please Enter Your Name.");
+
+      if (vl != null) {
+        let r = confirm("Do you want to generate otp?");
+
+        if (r) {
+         alert(vl.toUpperCase() + " Your OTP is = " + generateOTP());
+        }
+      }else{
+        alert("Operation Cancelled");
+      } */
+
+      /*  let timer = setInterval(function(){
+
+          alert("Hello I'm here");
+
+      }, 3000);
+
+
+      clearInterval(timer);
+      
+ */
+
+      // ==================== BOM (BROWSER OBJECT MODEL)
+
+      // alert(window.innerHeight);
+
+      /*    let iw = window.innerWidth;
+      let ih = window.innerHeight;
+
+      
+
+      let google = window.open("http://www.google.com","google","width=500px, height=500px, left=300px, top=200px");
+
+      google.resizeTo(iw/2,ih/2);
+      google.moveTo(iw/4,ih/4); */
+
+      // close();
+
+      /* setInterval(function(){
+        google.close()
+      },2000); */
+
+      // SCREEN OBJECT ==================
+
+      // alert(screen.availHeight);
+
+      // alert(screen.colorDepth);
+
+      // Navigator ==================
+
+      // alert(navigator.language);
+      // alert(navigator.appCodeName);
+      // alert(navigator.javaEnabled());
+      // alert(navigator.cookieEnabled);
+      // alert(navigator.userAgent);
+
+      // LOCATION OBJECT ===========================
+
+      // alert(location.href);
+      // alert(location.protocol);
+      // alert(location.host);
+      // alert(location.hash);
+
+      // window.location = "http://www.yahoo.com";
+      // window.location.assign("http://www.yahoo.com");
+
+      // location.reload();
+
+      /*    setInterval(function(){
+
+      location.reload();
+
+    },2000);
+
+ */
+    </script>
+    <style>
+      a.btn{
+        border-radius: 30px;
+        border: 2px solid black;
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 20px;
+      }
+      .dot{
+
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #000;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+      }
+    </style>
+  </head>
+  <body>
+
+    <p id="loading">Loading...</p>
+
+    <span class="dot"></span>
+    <h1 id="mainheading" data-target="body">IND into the Finals of World T20</h1>
+    <!-- <p class="para" onclick="para1content();">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt aperiam
+      facilis quod similique deleniti in blanditiis neque, amet reprehenderit
+      sed minus voluptatibus officia, consequuntur necessitatibus illum quia
+      assumenda numquam nostrum magni voluptatem excepturi maxime ut sunt! At
+      quae quaerat sed.
+    </p> -->
+
+    <hr>
+    <iframe src="http://www.arenaagra.com" frameborder="0"></iframe>
+    <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit illo facilis voluptates quae explicabo velit. Possimus, reiciendis ipsum! Quam cumque ipsa deserunt voluptatum maiores ex? Unde, nihil debitis. Quidem, unde!</p>
+
+    <a href="forwardpage.html" class="btn">Read More...</a>
+
+    <a href="forwardpage.html">Goto Next Page</a>
+    <script src="js/function.lib.js"></script>
+    <script src="js/core.js"></script>
+  </body>
+</html>

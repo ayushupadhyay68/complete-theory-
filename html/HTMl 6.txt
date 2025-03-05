@@ -1,0 +1,48 @@
+creating tables / displaying tabular data in the web page -:
+	
+		<table></table> - is used to create the table in the web page.
+		
+			attributes -:
+			
+				border - is used to set or remove the border from the table.
+				
+				align - is used to set the horizontal alignment of the element. it is global attribute for block level elements.
+				
+					values -: left | right | center 
+					
+				bordercolor - is used to set the colour of the border.
+				
+				bgcolor - is used to set the background colour of the table.
+				
+				background - is used to set the image in the background of the table.
+				
+				cellpadding - is used to increase the inner space of the cell / columns.
+				
+				cellspacing - is used to increase the outer space of the cell / columns.
+				
+				width - is used to set the width of the table.
+				
+				height - is used to set the height of the table.
+				
+			
+				
+				
+			<tr></tr> - it is table row tag / element which is used to create a row in the table.
+			
+			<td></td> - it is table data tag / element which is used to create a column / cell of data in the row.
+			
+			<th></th> - it is table heading tag / element which is used to create a column / cell of heading in the row.
+			
+			<thead></thead> - it is table header tag / element which contains the header content of the table which is displayed in the top of the table by the browser.
+			
+			<tbody></tbody> - it is table body tag / element which contains the body content of the table which is displayed in the middle of the table by the browser.
+			
+			<tfoot></tfoot> - it is table footer tag / element which contains the footer content of the table which is displayed in the footer / bottom of the table by the browser.
+				
+			<caption></caption> - is used to provide the brief information about the table.	
+	
+		merging / spaning / expanding columns -:
+		
+			rowspan - is used to span the columns up to given number of rows in next row.
+			
+			colspan - is used to span the columns up to given number of columns in a same row.

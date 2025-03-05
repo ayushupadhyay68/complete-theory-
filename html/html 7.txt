@@ -1,0 +1,333 @@
+				
+Working with multimedia elements -
+			
+	adding video / audio in the web page -:
+	
+		<video></video> - is used to add / display the video on the web page.
+		
+			attributes -:
+			
+				src - is used to provide the source of the video to play.
+				
+				width - is used to set the width of the video.
+				
+				height - is used to set the height of the video.
+				
+				poster - is used to set the poster image for the video.
+				
+				controls - is used to display the control button to the handle the video.
+				
+				autoplay - is used to play the video automatically.
+				
+				loop - is used to loop the video again and again
+				
+				muted - is used to mute the video.
+				
+				
+				
+		
+		<audio></audio> - is used to add / display the audio on the web page.
+		
+			attributes -:
+			
+				src - is used to provide the source of the audio.
+				
+				controls - is used to display the control buttons to handle the audio.
+				
+				autoplay - is used to play the audio automatically.
+				
+				loop - used to loop the audio again and again.
+				
+				muted - is used to mute the video.
+				
+				
+				
+				
+		supported file formats for audio / video for different - 2 browsers -:
+		
+			for video -:
+			
+				.mp4 | .webm | .ogg
+				
+			
+			for audio -:
+			
+				.mp3 | .wav | .ogg (vorbis)
+				
+		
+		providing different - 2 source for the audio / video element -:
+		
+			<source> -  is used to provide the different - 2 sources for the audio / video tag.
+			
+				attributes -:
+				
+					src - is used to provide the source of the file to be attached.
+					
+					type - is used to provide the MIME (Multipurpose internet mail extension) type of the file.
+	
+	
+		adding plugins / video/ audio file formats to the web page -:
+		
+			<object></object> - is use to attach plugins / files which require plugins to attach on the web page.
+			
+				attributes -:
+				
+					data - is used to provide the source of the file to be played.
+					
+					width - is used to set the width of the object.
+					
+					height - is used to set the height of the object.
+					
+					type - is used to provide the MIME type of the file
+					
+			
+			<embed></embed> - is used to attach / embed plugins to the web page same as object tag.
+			
+				attributes -:
+				
+					src - is used to provide the source of the file to be displayed.
+					
+					width - is used to set the width of the file.
+					
+					height - is used to set the height of the file.
+					
+					type - is used to provide the MIME type of the file.
+	
+		
+		adding the google map in the web page -: 
+		
+			1.google.com/maps
+			
+			2.share or embed map -:
+			
+		
+				<iframe></iframe> - is used to add the google map in the web page.
+			
+		
+		adding the youtube videos in the web page -: 
+		
+			1. youtube.com
+			
+			2. share -> embed video 			
+		
+			<iframe></iframe> - is used to add the youtube video in the web page.
+			
+	
+	
+				
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<form></form> - it collects data for all the form controls.
+	
+form elements / form controls -:
+		
+			<input> - is used to create an input field in the web page.
+			
+				attributes -:
+				
+					type - is used to handle what type of input field to be created.
+					
+						values -:
+						
+							text - is used to create a single line text field which can take / accept any character.
+							
+							password - is used to create a single line password field which can accept any character.
+							
+							radio - is used to create a radio button field for selecting single option from the given options.
+							
+							checkbox - is used to create a checkbox button field for selecting multiple options from the given options.
+							
+							button - is used to create a simple button for custom use / programming or etc.
+							
+							submit - is used to create a submit button which submits the form's data.
+							
+							reset - is used to create a reset button which resets the form to the default state.
+							
+							file - is used to create a file field to select files from the user's computer / machine / device.
+							
+							image - is used to create an image submit button.
+							
+					name - is used to provide the name of an input / form field.
+					
+					size - is used to set the size of the text and password fields.
+					
+					value - is used to set the value of form / input field.
+					
+					readonly - is used to make the form field as readable only.
+					
+					disabled - is used to make the form field disabled , it will not be submitted along with the other form fields.
+					
+					maxlength - is used to set the maximum length of character to be inserted for a form field.
+					
+					src - is used to provide the source to the image submit button.
+					
+					width - is used to set the width to the image submit button.
+					
+					height - is used to set the height to the image submit button.
+					
+		
+		<label></label> - is used to provide the label for the form field.
+		
+			attributes -:
+			
+				for  - is used to define / select the form field for which the label is being defined.
+	
+	
+		
+		displaying multiple line input field -:
+		
+			<textarea></textarea> - is used to display the multiple line input field with rows and columns.
+			
+				attributes -:
+				
+					cols - is used to set/provide the columns/ width for the textarea element.
+					
+					rows - is used to set/provide the rows/height for the textarea element.
+					
+					name - is used to provide the name of the textarea.
+					
+				
+					
+	
+	
+		
+		creating dropdown / selection  list / combo box field -:
+		
+			<select></select> - is used to create a dropdown button field to select single/multiple options from the given options.
+			
+				attributes -:
+				
+					name - is used to provide the name of the select tag.
+					
+				
+				<option></option> - is used to create an option for the selection list.
+				
+					attributes -:
+					
+						value - is used to set the value for the selection list.
+						
+				
+				<optgroup></optgroup> - is used to group the options.
+				
+					attribute -:
+					
+						label - is used to provide the name of the option group.
+	
+		
+	grouping form elements -:
+	
+	
+		<fieldset></fieldset> - is used to grouop the form controls.
+			
+		<legend></legend> - is used to provide the name of the fieldset.
+		
+		
+
+		
+	
+	HTML 5 input elements -:
+	
+		<input> -
+		
+			type -:
+			
+				date - is used to create a date field.
+				
+				week - is used to create a field for week.
+				
+				url - is used to create a url field.
+				
+				search - is used to create a search field.
+				
+				email - is used to create a email field.
+				
+				tel - is used to create a telephone field.
+				
+				range - is used to create a range field / slider.
+				
+				number - is used to create a number field which takes only number.
+				
+		
+		creating a predefined list for input element -:
+		
+			list - is used to display the data list items.
+			
+			syntax -:
+			
+				<input list="listname" name="list">
+				
+				<datalist id="listname">
+					
+					<option value="valuehere"></option>
+				
+				</datalist>
+				
+				
+		Note - above mentioned input elements are supported in newer browsers, if the browser does not support any element then it will display the element as normal text field.
+				
+	
+
+	HTML 5 form attributes -:
+	
+		placeholder - is used to display the placeholder text for an input field.
+		
+		required - is used to make an input / form field as required to fill.
+		
+		autocomplete - is used to turn on / off the autocompletion of the text for form fields.
+		
+			values -: on | off
+			
+		autofocus - is used to set the focus on an input field.
+		
+		min - is used to set the minimum value for date,number and range field.
+		
+		max - is used to set the maximum value for the date, number and range field.
+		
+		step - is used to set the steps for the range and number fields.
+		
+		multiple - is used to allow to select multiple options for the selection list and file field.
+		
+		pattern - is used to set the pattern for an field to match that pattern.
+			
+
+
+
+
+<div></div> - it is division element which is used to create the division / section in the web page. it is a block level element which is used to create the layout / design of the web page, it can contain other html elements.			
+				
+	HTML 5 Semantic Elements -: 
+	
+		<header></header> - is used to create a header part in the web page.
+		
+		<footer></footer> - is used to create a footer part in the web page.
+		
+		<figure></figure> - is used to create a figure element for displaying images and graphics.
+		
+		<figcaption></figcaption> - is used to display the brief  information about the figure.
+		
+		<aside></aside> - is used to create the side content in the web page.
+		
+		<section></section> - is used to create a section in the web page.
+		
+		<article></article> - is used to contain the article in the web page.
+		
+		<nav></nav> - is used to create the navigation in the web page.
+		

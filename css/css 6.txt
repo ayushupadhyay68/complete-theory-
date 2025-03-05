@@ -1,0 +1,99 @@
+
+		floating an elements -:
+		
+			float - is used to float an element according to the given value.
+			
+				values -: left | right | none
+				
+			
+		clear the effect of float -:
+		
+			clear - is used to remove / clear the effect of the float from an element.
+			
+				values -: left | right | both
+				
+		
+		handling the overflow of an element -:
+	
+			overflow - is used to handle the overflow content for an element.
+			
+				values -: hidden | auto | scroll | visible
+				
+		
+		
+	Total Width of an element = width + left padding + right padding + left margin + right margin + left border + right border
+	
+	Total Height of an element = height + top padding + bottom padding + top margin + bottom margin + top border + bottom border.
+	
+	
+	calc() - is used to calculate the values in css for addition and substration and so on.
+	
+	Creating a web layout -:
+	
+		types of layouts -:
+		
+			i. fixed width - it is fixed width layout in this measurment is given in pixels.
+			
+			ii. fluid grid / liquid - in this layout measurment is given in percent.
+			
+		
+		a. fixed width layout -
+		
+			grid system - 900px---------------1000px
+			
+			
+	
+	pseudo classes -:
+	
+		syntax -:
+		
+			:classname
+			
+		
+	:link - it represents to all the newly created links.
+	
+	:active - it represents to all the active links.
+	
+	:visited - it represents to all the visited links.
+	
+	:hover - it represents to all links / element which are being mouse overed.
+	
+	
+	setting position of an element -:
+	
+	
+		position - is used to move the element freely without disturbing other elements and it is also used to overlap elements.
+		
+			values -:
+			
+				static - it is the default value of position by default all the elements are positioned static which means it does nothing to an element.
+				
+				absolute - it sets the element as absolute position in this case element loses it's flow and moves according to the parent element's position if there is no parent found then html tag will be considered as parent element.
+				
+				
+				relative - it sets the element as relative positioned in this case element does not lose it's flow and moves according to the current flow of the page.
+				
+				fixed - it sets the element as fixed positioned in this case element loses it's flow and fixed in the browser window means element can not be scrolled.
+				
+				
+		
+		
+		setting the placements of positioned element -:
+		
+			top - is used to move the element from the top side.
+			
+			right - is used to move the element from the right side.
+			
+			bottom - is used to move the element from the bottom side.
+			
+			left - is used to move the element from the left side.
+			
+			
+		setting the stack order of positioned element / Arrangement of the positioned element -:
+		
+			z-index - is used to set the depth / stacking order of positioned element highest value displays the element top of the others.
+				
+				values -: any number
+				
+				
+			

@@ -1,0 +1,146 @@
+			
+				
+	functions - are blocks of code which are used to provide code reusability.
+	
+		syntax 1 -: creating a simple functions
+		
+			function identifier(){
+			
+				your code to be written here
+			
+			}
+			
+			
+		note -: to execute the code of the function we need to call / invoke it.
+		
+			calling / invoking a function -:
+				
+				syntax -:
+				
+					functionname();
+					
+					
+		syntax 2-: creating a function with arguments/parameters.
+		
+			function identifier(arg1,arg2,.....argn){
+				
+				your code to be written here
+			
+			}
+			
+			
+		syntax 3 -: creating a function with returning values.
+		
+		
+			function identifier(arg1,arg2,...argn){
+			
+				your code to be written here
+				
+				return value;
+			
+			}
+			
+		return statement - is used to return the given value to the function caller.
+		
+			syntax -:
+			
+				return value;
+				
+				or
+				
+				return(value);
+				
+	
+	variable scope / types of variables - variable scope represents where in the program a variable can be accessible.
+	
+		i. local variable - such variables which are defined inside of a function are called local variable and can be used inside of that function only.
+		
+		ii. function parameters - such variable which are defined in the function header are function parameters and can be used inside of that function only.
+		
+		iii. global variable - such variable which are defined outside of a function are gloabl variable.
+	
+			
+
+	objects -: are like a variabe but can contain multiple values in key / value pair.
+	
+		syntax -:
+		
+			var identifier = {key:value,key:value,.....};
+			
+			
+		accessing the property  / value of an object.
+		
+			syntax -:
+			
+				object.key;
+				
+				or
+				
+				object.property;
+				
+				or
+				
+				object[key];
+				
+		
+		displaying the output of json object -:
+		
+			JSON.stringify(object) - is used to display the output of the given json object.
+			
+	
+	
+	Array - is a collection of multiple values.in arrays values are stored in the form of index which starts from 0.
+	
+		syntax -:
+		
+			var identifier = new Array(values);
+			
+			or
+			
+			var identifier = [values];
+			
+			
+		retrieving / accessing /changing the single item of an array -:
+		
+			
+			arrayobject[index]; // retrieves the value of given index.
+			
+			arrayobject[index] = value; // changes the value of given index.
+			
+			
+			
+		methods / properties -:
+		
+			length - is used to return the total number of elements in an array.
+			
+			indexOf(value) - is used to return the index of given value and returns -1 if value could not found in the array.
+			
+			lastIndexOf(value) - is used to return the last index of given value and returns -1 if value could not found in the array.
+			
+			push(values) - is used to add the given values at the end of an array.
+			
+			unshift(values) - is used to add the given values at the start of an array.
+			
+			shift() - is used to remove the first element of an array and returns that elements.
+			
+			pop() - is used to remove the last element of an array and returns that element.
+			
+			sort() - is used to sort the array in ascending order.
+			
+			reverse() - is used to reverse the values of array.
+						
+			slice(start,[end]) - is used to extract the sub array from the given start and end offset.
+			
+			splice(start,delete count,replacement/Add values) - is used to add, remove and replace the item of an array and only returns the deleted elements.
+			
+			join(seperator) - is used to convert the array into string with the given seperator adn returns the string.
+			
+			concat(array,....) - is used to combine two or more arrays and return the new combined array.
+			
+			
+	how to access methods / properties of an object -:
+
+			object.method();
+			
+			object.property;
+			

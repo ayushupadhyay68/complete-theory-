@@ -1,0 +1,127 @@
+			
+				
+	Types of Elements/Tags -: there is two type of element in html
+		
+		i. block level - such elements which take the full width of the browser screen and display in the new line each time and can contain other html elements.
+		
+			e.g. -:
+			
+				div,p,h1,h2,h3,h4,h5,h6 and etc.
+				
+				
+		
+		ii. inline elements - such elements which take only the required width of the browser screen and display in the same line each time.it can contain only other inline elements.
+		
+			e.g. -:
+			
+				a,img,b,i,u,sup,sub, and etc.
+				
+				
+			
+	Working/Understanding paths -:
+	
+		types of path ->
+		
+			i. absolute path - it represents to the complete path / location of the file in relation with the file system of an operating system.
+			
+				e.g. -: file stored in the desktop
+				
+				
+					c:/users/nv/desktop/index.html
+			
+	
+			
+			ii. relative path - it represents to the path in relation with the files and folder which does not contain the full path.
+			
+				e.g. -: file stored in the desktop
+				
+					index.html
+					
+					
+			
+		a. accessing a file inside of a folder -:
+		
+				syntax -:
+				
+					foldername/filename.extension
+					 
+					folder/folder/..../filename.extension
+					
+		
+		b. accessing a file outside of a folder -:
+		
+				syntax -:
+				
+					../ = to come outside of a folder
+					
+					
+				../filename.extension
+				
+				../folder/......./filename.extension
+			
+	
+		
+		displaying content in scrolling -:
+		
+			<marquee></marquee> - is used to display the content in the scrolling according to the given attributes.
+			
+				attributes -:
+				
+					direction - is used to handle the direction of the scrolling.
+					
+						values -: left | right | up | down
+						
+					
+					scrollamount - is used to set the speed of the scrolling.
+					
+					bgcolor - is used to set the background colour.
+					
+					behavior - is used to handle how the scrolling will behave.
+					
+						values -: scroll | slide | alternate
+					
+					
+					loop - is used to handle how many times the content will scroll.
+					
+						values -: any number
+	
+	
+		displaying a web page in a web page -:
+		
+			<iframe></iframe> - is used to display the web page / given url in the web page.
+			
+				attributes -:
+				
+					name - is used to provide the name of the iframe tag.
+					
+					src - is used to provide the source of the file / page to be displyed in the iframe.
+					
+					width - is used to set the width of the iframe
+					
+					height - is used to set the height of iframe.
+					
+					scrolling - is used to handle the scrolling of iframe.
+					
+						values - no | yes | auto
+						
+					
+					frameborder - is used to handle the border of the frame.
+					
+						values -: 0 | 1
+						
+	
+	setting page / body attributes -:
+	
+		bgcolor - is used to set the background colour for the page.
+		
+		text - is used to set the text colour for the page text.
+		
+		background - is used to set the image in the background of the page.
+		
+		link - is used to set the colour for newly created links.
+		
+		alink - is used to set the colour for the active links.
+		
+		vlink - is used to set the colour for the visited links.
+		
+	

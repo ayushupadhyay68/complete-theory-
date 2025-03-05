@@ -1,0 +1,150 @@
+
+	control strcutures / control flow statements / flow control statements -: are used to control the execution of the program.
+	
+	
+		i. conditional statements -: are used to execute the code according to a specific condition.
+		
+			a. if statement - is used to test a particular condition and executes the code if the condition evaluates to true.
+			
+				syntax -:
+				
+					if(condition){
+						
+						your code to be written here
+					
+					}
+					
+					
+			b. else if statement - is used to test a particulat condition if the condition of if statement is false then executes the code if the condition evaluates to true.
+			
+			
+				syntax -:
+				
+					if(condition){
+					
+						your code to be written here
+					
+					}
+					else if(condition){
+						
+						your code to be written here
+					
+					}
+					.
+					..
+					...
+					
+			c. else statment  - is used to execute the code when there is no condition matches true of niether if statement nor else if statement.
+			
+				syntax 1 -:
+				
+					if(condition){
+					
+						your code to be written here
+					
+					}
+					
+					else{
+						
+						your code to be written here
+					
+					}
+					
+				syntax 2 -:
+				
+					if(condition){
+						
+						your code here
+						
+					}
+					else if(condition){
+						
+						your code here
+						
+					}
+					.
+					..
+					else{
+						
+						your code here
+					
+					}
+	
+			
+			d. switch...case statement - is used to execute / test the particular condition /variable against several posssible values.
+			
+				syntax -:
+				
+					switch(condition/variable){
+						
+						case value:
+						your code to be written here
+						break;
+						
+						case value:
+						your code to be written here
+						break;
+						
+						.
+						..
+						...
+						
+						default:
+						your code to be written here
+						
+					
+					}
+					
+		
+		ii. looping statements - are used to execute the code again and again depends upon the condition.
+		
+			a. for loop - it is the most basic programming construct loop is used to execute the code repeatadly while condition is true.
+			
+				syntax -:
+				
+					for(initilization;condition;increment/decrement){
+					
+						your code to be written here
+						
+					}
+					
+					
+			b. while loop - is used to loop / repeat / execute the code again & again until the condition becomes false;
+			
+				syntax -:
+				
+					while(condition){
+					
+						your code to be written here
+					
+					}
+			
+			
+			c. do...while loop - it works same as while but it executes the code atleast once event if the condition is false.
+			
+				syntax -:
+				
+					do{
+					
+						your code to be written here
+					
+					}
+					while(condition)
+					
+					
+		iii.  break / continue statements -:
+		
+			break statement - is used to terminate the statement and loop.
+			
+				syntax -:
+				
+					break;
+					
+					
+			
+			continue statement - is used to skip the current iteration and moves to the next iteration.
+			
+				syntax -:
+				
+					continue;
+				

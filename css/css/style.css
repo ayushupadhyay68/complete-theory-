@@ -1,0 +1,86 @@
+body{
+    background-image: url(../images/tiger.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+h1{
+    background: #fd2828;
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 48px;
+    /* text-transform: capitalize; */
+    font-variant: small-caps;
+    /* text-align: center; */
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    /* display: none; */
+    /* border-width: 5px;
+    border-style: outset;
+    border-color: green; */
+    border: 5px solid green;
+    /* border-bottom: none; */
+    outline: 3px solid black;
+    /* visibility: hidden; */
+    opacity: .5;
+    filter: alpha(opcaity=50);
+    width: 50%;
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin: 0 0 0 20px;
+}
+
+
+
+p{
+    line-height: 25px;
+    text-align: justify;
+    text-align-last: center;
+    word-spacing: 5px;
+    /* background-color: orange;
+    background-image: url(../images/taj.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: scroll; */
+    /* background: gray url(../images/taj.jpg) center bottom; */
+    padding: 30px 60px 120px 240px;
+    background: gray;
+    margin: 0px 0 0 0;
+   
+}
+
+p span, h1 span{
+    background: #000;
+    color: white;
+}
+
+.baseline{
+    vertical-align: baseline;
+}
+.super{
+    vertical-align: super;
+}
+
+.middle{
+    vertical-align: middle;
+}
+.sub{
+    vertical-align: sub;
+    color: rgb(162, 255, 0,0.5);
+}
+a{
+    background: red;
+    display: block;
+}
+
+ul{
+
+    /* color: white; */
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: url(../images/list-icon.png);
+    cursor: not-allowed;
+}

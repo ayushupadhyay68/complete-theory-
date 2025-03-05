@@ -1,0 +1,43 @@
+Authenticating users / User Authentication -: is a process to check for the credentials provides in the application whether that are corrent or not.
+	
+		types of authentication -:
+		
+			i. Hard Coded - in this case username and password remains same for all the users in most cases.
+			
+			ii. file based  - in this case username and password stored in rhe files and we reads the file.
+			
+			iii. IP based - in this case we track or use the ip address of the user.
+			
+			iv. database based - in this case information is stored in the databases.
+			
+			
+		methods -:
+		
+			empty(variable) - is used to check whether the given variable is empty returns true if it is or false otherwise.
+			
+			exit() - is used to stop the script for the further operation.
+			
+			unset(variable) - is used to unset / remove the variable from the memory.
+			
+			isset(variable,...) - is used to check whether the given variable is set or created or not returns true if it is set or false ther.
+			
+			header(string value) - is used to send the raw of http information to the server and browser.
+			
+			die(string msg) - is used to display the error messages and stop the further execution of the code.
+			
+			
+		displaying server side authentication forms -:
+		
+			header("WWW-Authenticate: Basic Realm=subject");
+			
+		
+		redirecting users from one page to another -:
+		
+			header("location:url");
+			
+		
+		retrieving the user/password passed in the server side form -:
+		
+			$_SERVER['PHP_AUTH_USER'] - is used to return the user name passed in the form.
+			
+			$_SERVER['PHP_AUTH_PW'] - is used to return the password passed in the form.

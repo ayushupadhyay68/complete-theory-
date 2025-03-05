@@ -1,0 +1,118 @@
+
+			selector - it represents to the tag / element on which style to be applied.
+			
+			property - is used to apply the behaviour for the element.
+			
+			value - is used to set the value for the property.
+			
+		selector -
+		
+			i. tag / element selector - is used to select all the elements/tags of given tag type/name.
+			
+				e.g. -:
+				
+					p - it will select all the paragraph tags to apply css.
+					
+					p{
+					
+						property:value;
+					
+					}
+					
+			ii. universal selector - it will select all the elements / tag to apply style.
+			
+				e.g. -:
+				
+					* = all 
+					
+					*{
+						
+						property:value;					
+					}
+				
+			
+			iii. id selector - it selects the unique element with given id in the html tag.
+			
+				e.g. -:
+				
+					<p id="desc">Hello there this is used for the id </p>
+					
+					#idvalue
+					
+					#desc{
+						
+						property:value;
+					
+					}
+					
+			
+			iv. group selector - it is used to select multiple selectors to apply same styles.
+			
+				e.g. -:
+				
+					selector,selector,....
+					
+				
+					p,a,h1{
+						
+						property:value;
+					
+					}
+			
+			v. class selector - is used to select elements which have the same class in the html elements.
+			
+				class - it is a global attribute for html elements, multiple elements can have same class and can have more than one class.
+				
+					e.g. -:
+					
+						<p class="para"> hello this is para</p>
+						<p class="para red big"> hello this is para</p>
+						<p> hello this is para</p>
+						
+					
+					.classname
+					
+					.para - it will select all the elements with class para
+					
+					.para{
+					
+						property:value;
+						
+					}
+			vi. descendent selector - is used to select an element inside an element or selector.
+			
+				syntax -:
+				
+					selector selector .....
+					
+				
+				e.g. -:
+					
+					div p a - it will select all the paragraph tags which are inside div elements.
+					
+				
+					div p{
+					
+						property:value;
+						
+					
+					}	
+	
+	
+	changing the font / text colour of an element -:
+	
+		color - is used to set the colour for the text.
+		
+			values -: colour name | colour code
+			
+			
+	Comments / Commenting in css - are used to deactivate a part of code or make the code more readable by providing the documentation for the code.
+	
+		syntax -:
+		
+			/* 
+			
+			your comment goes here
+			
+			*/		
+			

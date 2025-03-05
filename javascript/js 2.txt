@@ -1,0 +1,152 @@
+			
+	
+	operators -: are built in functions like commands which are used to operate one or more values.
+	
+		types of operators -:
+		
+			i. arithmetic operators -:
+			
+			
+				+				addition
+				
+				-				subtraction
+				
+				*				multiplication
+				
+				/				division
+				
+				%				modulus (returns the remainder value after dividing the first number with the second)
+		
+		
+			ii. assignment operators -: 
+			
+				=				assignment
+				
+				+=				addition assignment
+				
+				-=				subtraction assignment
+				
+				*=				multiplication assignment
+				
+				/=				division assignment
+				
+				%=				modulus assignment
+				
+				
+			var a = 10;
+			
+			a += 40; // value will be 50 of a
+			
+			a = a + 40;
+		
+		
+			iii. comparision operators -: are used to compare two values and returns the true or false based on the expression.
+			
+			
+				<				less than
+				
+				>				greater than
+				
+				<=				less than or equal to
+				
+				>=				greater than or equal to
+				
+				==				equal to
+				
+				===				identical equal to (value and type must be same for true output)
+				
+				!=				not equal to
+				
+				!==				not identical to
+			
+				
+			
+			iv. logical operators -: are used to work with logics / creates more logics.
+			
+				
+				&&				and
+				
+				||				or
+				
+				!				not
+				
+				
+			Truth Table for && (and) -:
+			
+			
+			A			B			Output
+			
+			
+			true		true		true
+			
+			true		false		false
+			
+			false 		false		false
+			
+			false		true		false
+			
+			
+			
+			Truth Table for || (or) -:
+			
+			
+			A			B			Output
+			
+			
+			true		true		true
+			
+			true		false		true
+			
+			false 		false		false
+			
+			false		true		true
+			
+		
+		v. concatenation operators -: are used to combine two or more string.
+		
+			
+			+			concatenation / concat
+
+			
+			+=			concatenation assignment
+		
+		
+		
+		vi. unary / increment and decrement operators -: are used to add or less one from the variable / value.
+
+			
+			++			increment
+			
+			--			decrement
+			
+			
+			note -: increment and decrement can be done in two ways.
+			
+			i. pre increment / decrement - in this case value add / less first and then assigned to the variable.
+			
+				e.g. -:
+				
+					var a = 10;
+					
+					++a; // 11
+					
+					a // 11
+					
+					
+			
+			ii. post increment / decrement - in this case value assigned first and add / less after the assignment.
+			
+				e.g. -:
+				
+					var a = 10;
+					
+					a++; // 10
+					
+					a // 11
+					
+		vii. conditional / ternary operator -: is used to pass the value in a variable according to the particular condition.
+		
+			syntax -:
+			
+				(condition)? code for true : code for false;
+				

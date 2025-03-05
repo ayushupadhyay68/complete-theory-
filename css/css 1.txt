@@ -1,0 +1,71 @@
+CSS - stands for cascading stylesheets which is used to design / style the web pages.latest version of css is css3.
+	
+	types of css / how to attach -:
+	
+		i. inline style - it is most powerful style sheet it is attached in the tag / element directly by using the style attribute.
+		
+			syntax -:
+			
+				<tag style="property:value;...."></tag>
+				
+				style - it is a global attribute for the body elements to apply inline styles in the web page.
+				
+		
+		ii. internal style - it is attached in the head section of the html document by using the <style> tag.it is suitable for applying style for particular page.
+			
+			syntax -:
+			
+				<style>
+					
+					your code to be written here
+				
+				</style>
+				
+			
+				<style></style> - is used to apply internal style sheet for the web page and attached in the head section.
+				
+		
+		iii. external style - it is the most usable style sheet which is created in the seperate file with the .css extension and attached in the head section by <link> tag.
+		
+				i. create a file with .css extension and write the code
+				
+				ii. attach the file using <link> tag.
+				
+			<link> - is used to attach external files in the web pages such as shortcut/Fav icon and style sheet and so on.
+			
+				attributes -:
+				
+					href - is used to provide the url of the file to be attached.
+					
+					rel - is used to provide the relation of the attached file.
+					
+					type - is used to provide the MIME type of the file.
+					
+				
+				e.g. -:
+				
+					attach the shortcut icon of the web page -:
+					
+						<link href="favicon.ico" rel="shortcut icon">
+						
+						note -: size 32 x 32 or 16 x 16 in pixel for shortcut icon
+						
+					attach the css -:
+					
+						<link href="filename.css" rel="stylesheet" type="text/css">
+						
+					
+				
+			how to code for internal / external style sheet -:
+			
+				syntax -:
+				
+					selector{
+					
+						property:value;
+						.
+						..
+						...
+					
+					}
+			

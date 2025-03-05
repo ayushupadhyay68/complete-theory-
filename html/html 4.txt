@@ -1,0 +1,53 @@
+displaying quotes in the web page -:
+
+		
+		<q></q> - is used to display the short quotes in the web page by applying double quotes in the start and end of the wrapped content.
+		
+		<blockquote></blockquote> - is used to display the long quotes in the web page.
+		
+	
+	
+	<abbr></abbr> - is used to display the abbereviations in the web page.
+	
+		attributes -:
+		
+			title - it is a global attribute which contains the title of the element which displays when the user mouse over on that element.
+			
+	
+
+	character entities -: in html some characters are reserved so we can not use them or characters which are not available on the keyboard for those we use character entites.
+		
+			syntax -:
+			
+				&entityname;
+				
+				or
+				
+				&#entitycode;
+				
+			here are some entities -:
+			
+				&nbsp;		-  non breaking space
+				
+				&ensp;		-  for one dash space
+				
+				&lt;		- less than
+				
+				&gt;		- greater than
+				
+				&reg;		- registration symbol
+				
+				&trade;		- trademark symbol
+				
+				&diams;		- diamond sign
+				
+				&copy;		- copyright symbol
+				
+				&laquo;		- left angular quotes
+				
+				&raquo;		- right angular quotes
+				
+				&hearts;	- heart symbol
+				
+				&amp;		- ampersand/& symbol
+				

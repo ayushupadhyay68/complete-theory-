@@ -1,0 +1,152 @@
+popup / modal box - are used to display information to the browser.
+	
+		alert(msg) - is used to display the warning with the given message with ok button.
+		
+		confirm(msg) - is used to display the given confirmation message to the browser with ok and cancel button, returns true if clicked ok or false otherwise.
+		
+		prompt(msg,[default value]) - is used to take the input from the user of given message with ok and cancel button and returns the given string or null otherwise if clicked cancel.
+	
+	escape sequence characters -: are used to escape the characters 
+with in a string.
+	
+		syntax -:
+		
+			\character
+			
+			
+		
+		\n				new line character
+		
+		\r				carriage return character
+		
+		\t				tab character
+		
+		\f				form feed character
+		
+		\\				backslash
+		
+		\"				quotes
+		
+		\b				backspace characer
+		
+	
+		
+	working with the timer / time / time events -:
+
+		setTimeout(function,timeout) - is used to execute the given function after the given timeout in milliseconds.it returns the timer.
+		
+		setInterval(function,timeout) - is used to execute the given function every time after the given timeout in milliseconds and returns the timer.
+		
+		clearTimeout(timer) - is used to remove / clear the given timer which is set through the setTimeout() function.
+		
+		clearInterval(timer) - is used to remove / clear the given timer which is  set through the setInterval function.
+		
+	
+		
+	
+	BOM (Browser object model) - when the web page loads in the browser, browser creates some object to handle the content and retrieve the information about the browser.
+	
+		
+		window -> screen
+		
+				  history
+				  
+				  navigator
+				  
+				  location
+				  
+				  document
+
+		window - it represents to the current browser window.
+		
+			methods / properties -:
+			
+			
+			innerWidth - is used to return the inner width of the browser window.
+			
+			innerHeight - is used to return the innter height of the browser window.
+			
+			open(url,name,features) - is used to open the given url in the new browser window like popups.
+			
+			
+			close() - is used to close the browser window.
+			
+			moveTo(x,y) - is used to move the browser window to the given x and y axis.
+			
+			moveBy(x,y) - is used to move the browser window by the given x and y axis.
+			
+			resizeTo(x,y) - is used to resize the browser window to the given x and y axis.
+			
+			resizeBy(x,y) - is used to resize the browser window by the given x and y axis.
+			
+			
+		screen - it contains the information about the client screen.
+		
+			methods / properties -:
+			
+				width - is used to return the total width of the screen.
+				
+				height - is used to return the total height of the screen.
+				
+				availWidth - is used to return the available width of the screen.
+				
+				availHeight - is used to return the available height of the screen.
+				
+				colorDepth - is used to return the colour depth of the screen.
+				
+				pixelDepth - is  used to return the pixel depth of the screen.
+				
+				
+		
+		history - it contains the information about the browser history.
+		
+			methods / properties -:
+			
+				back() - is used to move the backward history page.
+				;
+				forward() - is used to move the forward history page.
+		
+		
+		
+		navigator - it contains the information about the browser.
+		
+			methods / properties -:
+			
+				appName - it contains the name of application.
+				
+				appCodeName - it contains the code name of the application
+				
+				appVersion - it contains the version of the application.
+				
+				userAgent - it contains all the information about the browser / application.
+				
+				cookieEnabled - returns true if cookies are enabled in the browser or false otherwise.
+				
+				javaEnabled() - check for whether the java is enabled in the browser.
+				
+				language - is used to return the language of the browser / navigator.
+				
+			
+
+		location - it contains the information about the location of the page loaded in the browser.
+		
+			methods / properties -:
+			
+				pathName - is used to return the path of the location.
+				
+				protocol - it returns the protocol.
+				
+				hostName - it returns the host name
+								
+				href - it contains / changes the hypertext reference of the location.
+				
+				host - it returns the host of the location.
+				
+				hash - is used to return the value used with hash(#) tag in the browser.
+				
+				port - it returns the port of the location.
+				
+				assign(url) - is used to assign the given url to the page. 
+				
+				reload() - is used to reload the current location.
+		

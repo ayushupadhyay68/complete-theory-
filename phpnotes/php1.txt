@@ -1,0 +1,66 @@
+PHP - Stands for hypertext preprocessor which is used to develop websites and web application.it is used to create database driven applications.it is an interpreted and loosly typed language.
+
+	installation -:
+	
+		Install Wamp Server - wampserver.com
+		
+		or
+		
+		Install XAMP Server - apachefriends.org
+		
+	
+	Requirements -:
+	
+		O.S. - Windows / Linux / Macintosh
+		
+		Web server - Apache / IIS
+
+		Database Server - Mysql / Sql Server / Oracle / Ms Access 
+		
+		Server side language - PHP
+		
+	LAMP - Linux -> OS
+	
+		-  Apache -> Web Server
+		
+		-	Mysql -> Database Server
+		
+		-  PHP -> serverside language
+		
+		
+		
+	PHP Delimeter Syntax -:
+	
+		i short tag - to used this we need to enable it from php.ini file which is the configuration file for the php.
+		
+			<? your php code goes here?>
+			
+			
+		ii. default tag -:
+		
+			<?php your php code goes here?>
+			
+			
+	phpinfo() - is used to return the information related to the php and server.
+	
+	output statements -:
+	
+		echo(value) -
+			
+			syntax -:
+				
+				echo(value);
+				
+				or
+				
+				echo value,value,...;
+		
+		print(value) -
+		
+			syntax -:
+			
+				print(value);
+				
+				or 
+				
+				print value;

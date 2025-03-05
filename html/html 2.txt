@@ -1,0 +1,109 @@
+	
+	
+attributes - are used to provide the additional information for an element or tag.
+	
+		types of attribute -:
+		
+			i. local attribute - such attributes which can be applied on particular element.
+			
+			ii. global attribute - such attributes which can be applied on any html element.
+			
+		syntax -: how to add an attribute to an element/tag.
+
+			<tag attribute="value" attribute="value" ....></tag>
+			
+		
+		id attribute - it is a global attribute to provide the unique identification for an element, it can be applied on any html element.
+		
+			e.g. -:
+			
+				<p id="description">Hello this paragraph contains the description</p>
+		
+		
+	displaying images/ graphics on the web page -:
+	
+		<img> - is used to display the images on the web page.
+
+			attributes -:
+			
+				src - is used to provide the source / url / path of the file / image to be displayed / attached
+				
+				width - is used to provide the width of the image.
+				
+				height - is used to provide the height of the image.
+				
+				alt - is used to provide the alternate text for the image when image could not be loaded in the web page then the text in the alt attribute displayed in the web page.
+				
+	
+	creating hyperlinks, Bookmark in the web page -
+	
+		hyperlink - are used connect one page to another page or one area to another area in the web page.
+		
+		Bookmark - is used to make an area identified in the web page so that we can reach to that section easily by clicking on the link.
+		
+		
+			<a></a> - it is an anchor tag / element which is used to create hyperlink, bookmark in the web page.
+			
+				attributes -:
+				
+					href - is used to provide the hypertext reference to the link.it contains the url / path of the page to be linked.
+					
+					target - is used to handle how the link will be opened in the browser.
+					
+						values -:
+						
+							_blank - it opens the link in the new browser window or tab each time when clicked on the link.
+							
+							_new - it openes the link in the new browser window only once.
+							
+							_self - it is the default value which opens the link in the same browser window.
+							
+							iframe name - it opens the link in the given iframe.
+							
+					name - is used to provide the name of the anchor tag to create it as named anchor.
+					
+					
+					
+					
+			URL - Stands for Uniform Resourse Locator.
+
+			URI - stands for Uniform Resource Identifier.
+			
+		
+		creating an email link -:
+		
+			<a href="mailto:youremailaddress">your text here</a>
+			
+		
+		creating a telephone link -:
+		
+			<a href="tel:yourtelephonenumber">your text here</a>
+			
+		creating a downloadable link -:
+		
+			<a href="filepathtodownload" download>your text here</a>
+			
+			
+		Creating Bookmarks in the web page -:
+		
+			syntax -:
+			
+				<a id="value" name="value"></a>
+				
+		
+		accessing/goto bookmark in the web page -:
+		
+			<a href="#idvalue">your text here to make link</a>
+			
+			
+			
+		Comments - are used to deactivate a part of code or make the code more readable for other programmers/developers by providing the documentation of the code.
+	
+		syntax -:
+		
+			<!-- 
+			
+				your comment goes here
+			
+			
+			-->

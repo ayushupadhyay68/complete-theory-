@@ -1,0 +1,708 @@
+PHP -: is a server scripting language. to develop webiste and web application. used to create database driven websites and application.
+
+	Installation -:
+		
+		
+		operating system -> Linux / Windows / Macintosh / Unix
+		Server -> Apache / IIS 
+		Database sofware  -> Mysql / Sql Server / Oracle
+		programming language  -> PHP
+	
+	
+	LAMP Stack -:
+	
+	
+		i) XAMP -> apachefriends.org
+		
+		ii) Wamp  -> wampserver.com
+		
+		
+		
+	Where to code php -:
+	
+		syntax -:
+		
+			i) default tag -:
+			
+				<?php ?> - this is the default tag to write php code
+				
+				
+			ii) short tag -:
+			
+			
+				<? ?> - to use this tag we need to turn it on from the php.ini file
+				
+				
+	
+	displying output to the browser -:
+	
+		i) echo() -
+		
+			syntax:-
+			
+				echo(value);
+				
+				echo value,value....
+				
+				
+		ii) print() -
+		
+			syntax -:
+			
+				print(value);
+				
+				print value;
+	
+		
+		
+		
+		
+
+	
+
+
+
+
+
+variables -: are used to store different - 2 values at different times it is like a container which holds a value.
+	
+		syntax -:
+		
+			$identifier = value;
+			
+			
+		identifier -  is the name of the functions, variable or an object by which we recognize them in the programming.
+		
+		rules for valid identifier -:
+			
+		i. identifier can contain only letters, numbers, dollar sign and underscore character.
+		
+		ii. identifier can not be start with numbers.
+		
+		iii. identifier can not be a keyword or a reserve word.	
+			
+			e.g. -:
+			
+			$student_1 = 'Ria';
+			
+			$student@2 = "Naman";
+			
+			$student-8 = 10;
+			
+			
+			
+			
+	operators -: are built in functions like commmands which are used to operator one more variables / values.
+	
+		i. arithmetic -
+		
+			+		addition
+			
+			-		subtraction
+			
+			*		multiplication
+			
+			/		division
+			
+			%		Modulus (Returns remainder value after dividing the first number with second)
+			
+		
+		assignment - used to pass right side value to the left side variable.
+		
+			=		assignment
+			
+			+=		addition assignment
+			
+			-=		subtraction assigment
+			
+			/=		divison assignment
+			
+			*=		multiplication assignment
+			
+			%=		modulus assignment
+			
+		
+			
+		comparison - are used to compare two values and returns the boolean(true or false) value based on the expresion.
+		
+			<			less than
+			
+			>			greater than
+			
+			<=			less than or equal to
+			
+			>=			greater than or equal to
+			
+			==			equal to
+			
+			===			identical equal to (both the value and type must be same for true)
+			
+			!=			not equal to
+			
+			!== 		not identical to
+			
+		
+		logical - are used to create more logics and returns the boolean value according to the expressions.
+		
+			&&	 		and
+			
+			||	 		or
+			
+			!	 		not
+			
+			truth table for && (and)
+			
+			A		B		Output
+			
+			true	true	true
+			
+			true	false	false
+			
+			false	false	false
+			
+			false 	true	false
+			
+			truth table for || (or)
+			
+			A		B		output
+			
+			true	true	true
+			
+			true	false	true
+			
+			false	false	false
+			
+			false	true	true
+			
+			
+		
+		increment / decrement - 
+		
+			++			increment
+			
+			--			decrement
+			
+			
+		concatenation / string  - are used to combine two or more strings.
+		
+			. 		concat
+			
+			.=		concatenation assignment
+			
+
+
+		ternary / conditional - is used to pass / assign the value in a variable according to the specific condition when evaluates to true.
+		
+			condition? true : false;
+	
+	
+	
+	control structures -: are used to control the flow / execution of the program and code.
+	
+	
+		1. conditional statements -: are used to execute the code on the basis of condition
+			
+			a. if statements -: is used to test the particular condition and executes the code if the condition is true.
+					
+				syntax -:
+				
+				 if(condition){
+				
+				code here
+			
+				}
+				
+				
+			
+			b. else if statement - is used to test the condition if the condition in the above if statement evaluates to false. 
+				syntax -:
+				if(condition){
+					
+					your code here
+				
+				}
+				else if(condition){
+			
+				code here
+			
+				}
+				.
+				..
+				...
+			
+			c. 	else statement - is used to execute the code when there is no condition is true.
+				syntax -:
+					
+				else{
+				
+				code here
+			
+				}
+			
+			d. switch case statement - is used to check the variable against several possible values.
+				
+				syntax -:
+				
+				switch(variable){
+				
+					case value:
+					code here
+					break;
+					case value:
+					code here
+					break;
+					.
+					..
+					...
+					default:
+					code here
+				
+				}
+		
+			2. loops -: are used to execute the code again and again till a given condition is true.
+			
+			 a. for loop -:
+			
+				syntax -:
+			
+					for(initialization;condition;increment/decrement){
+					loop body
+					}
+			
+			 b. while loop -:
+				
+				syntax -:
+				
+					while(condition){
+						loop body
+					
+					}
+				
+			
+			c. do...while loop - it executes the code atleast once event the condition is false.
+			
+				do{
+					
+					loop body
+				
+				}
+				while(condition)
+	
+	
+			d. foreach loop - it is used to loop through arrays.
+			
+				syntax -:
+				
+					foreach($array as $value ){
+					
+						loop body
+					
+					}
+					
+				syntax 2 -:
+				
+					foreach($array as $key=>$value){
+					loop body
+					}
+		
+				
+			
+		3. break / continue statements -:
+			
+				break -  is used to terminate the loop / statements
+				
+				
+				continue - is used to skip the current iteration and moves to the next iteration.
+				
+				
+				
+	functions - are blocks of code which are used to provide code reusability.
+	
+		syntax -: 1. simple function
+		
+			function identifier(){
+				
+				function-body / your code to be written here
+			
+			}
+			
+		note - to run / execute the code of the function we need to call / invoke it by its name followed by parentheses.
+		
+			syntax -:
+			
+				identifier/functionname();
+				
+				
+		syntax -: 2. function with arguments - we can provide the value of function arguments while invoking the function.
+		
+			function identifier($arg1,$arg2,.....$argn){
+			
+				function-body			
+			
+			}
+			
+		syntax -: 3. function with returning values. - is used to return the value from the function to its caller.
+		
+			function identifier($arg1,$arg2,....$argn){
+				
+				function-body
+				
+				return value;
+			
+			}
+		
+		Comments - are used to deactivate a part of code and make the code more readable for others by providing documentation of the code.
+		
+			syntax -:
+			
+				// 1. single line comment 
+				
+				
+				
+				/* 
+				
+					2.multiple line comment
+				
+				*/
+		
+	variable scope -: represents where the variable can be accessible after declaring in the script.
+	
+		i. local variable - which are defined inside of the function and can be use outside that function.
+		
+			e.g. -:
+			
+				function abc(){
+					
+					$a = 10; // local variable.
+				
+				}
+	
+		
+		ii. global variable - which are defined outside of the function and can be used any where in the php script.but to use the variable inside of the function we need to decalare it globally by using the gloabl keyword in the function.
+		
+			e.g. -:
+			
+				$a = 10; // global variable.
+				
+				function abc(){
+					
+					global $a; // declared as global inside the function
+					
+					echo $a; // prints 10
+				
+				
+				}
+	
+		iii. function parameters - which are defined in the function header thus can be used outside of the function.
+		
+			e.g. -:
+			
+				function abc($a,$b){
+				
+					
+				
+				}
+				
+		iv. static  variable - such variables which do not lose its value even after the execution of the program.
+		
+			syntax -:
+			
+				static $identifier = value;
+		
+			
+	
+	
+	Data types - are used to represents the type of value a variable contains or stores.
+	
+		types of data type -:
+		
+			i Scalar - which holds single value.
+			
+			ii. compound - which can hold more than one value.
+			
+			
+		1. scalar data types -:
+		
+			int or integer - represetns to whole numbers
+			
+			string	- sequence of characters with in double or single quote
+			
+			boolean - contains two values true or false
+			
+			float - represents to floating point number both the whole and fractional.
+			
+			double - same as float but with more length
+			
+			real - same as float but with more length in fractional numbers.
+			
+			
+		2. compound data types -:
+		
+			array -
+			
+			object -
+	
+		Data type casting - is the process to convert a data type into another data type.
+		
+			
+			type				operators
+			
+			
+			int					(int)
+			
+			string				(string)
+			
+			boolean				(boolean)
+			
+			float				(float)
+			
+			array				(array)
+			
+			object				(object)
+			
+			
+		syntax -:
+
+			$id = "10.50";
+			
+			$num = (integer) $id; 
+		
+			
+			
+	type related functions -:
+
+		gettype(variable) - returns the type of given varibale.
+		
+		settype(variable,type) - sets the type of given variable to given type.
+		
+		
+	type identifier functions - used to identify the type of the variable and returns true if it is of certain type or false otherwise.
+
+		syntax -:
+		
+			is_type(variable);
+			
+			
+		methods -:
+		
+			is_integer(varibale) -
+			
+			is_array(variable) -
+			
+			...
+			....
+			.....
+			
+			
+			
+	retreving the information about the server -
+	
+		$_SERVER - it is a super global variable defined in php which can be used anywhere in the php script.
+		
+			syntax -:
+			
+				$_SERVER['REMOTE_ADDR'] - returns the ip address
+	
+	
+				
+				
+	Retrieving value passed in the form using get/post request -:
+	
+		$_GET - used to retrieve the information passed through the get method of http or query string.
+		
+		$_POST - used to retrieve the information passed through the post method of http.
+		
+			syntax -:
+			
+				$_GET['fieldname']; // retrieve the value of given field.
+		
+	
+	file inclusion statements -:
+	
+		include(filepath) - is used to include the given page in the current script.
+		
+		include_once(filepath) - same as include but includes the file only if it is not already attached or linked.
+		
+		require(filepath) - is used to require / include the given page in the current script if the file could not be added then further execution will be stopped. 
+		
+		require_once(filepath) - same as require but includes the file only if it is not already linked or attached.  
+		
+		
+		
+		
+		
+	handling file uploads -: is a process to handle the file upload from the user's machine and upload it to the server.
+	
+		$_FILES - it is a superglobal variable with five predefined element which contains the information about the uploaded file.
+			
+			$_FILES['file']['name'] - it contains the actual name of the file with the extension.
+			
+			$_FILES['file']['tmp_name'] - it contains the temporary name of the file.
+			
+			$_FILES['file']['size'] - it contains the size of the file in bytes.
+			
+			$_FILES['file']['type'] - it contains the MIME type of the file.
+			
+			$_FILES['file']['error'] - it contains the error related code 0 represents to success other represents to error.
+			
+
+			
+		methods -:
+		
+			is_uploaded_file(tempname) - is used to check whether the given file has been uploaded via the http post method or not. returns true if it is or false otherwise.
+			
+			
+			move_uploaded_file(tmpname,destination) - is used to move the uploaded file from the temporary directory to the destination directory.
+			
+		creating the form for uploading the files -:
+		
+			<form name="" method="post" enctype="multipart/form-data">
+			
+				<input type="file" name="file">
+				<input type="submit" name="upload" value="upload">
+			
+			
+			</form>
+			
+			
+	Authenticating users / User Authentication -: is a process to check for the credentials provides in the application whether that are corrent or not.
+	
+		types of authentication -:
+		
+			i. Hard Coded - in this case username and password remains same for all the users in most cases.
+			
+			ii. file based  - in this case username and password stored in rhe files and we reads the file.
+			
+			iii. IP based - in this case we track or use the ip address of the user.
+			
+			iv. database based - in this case information is stored in the databases.
+			
+			
+		methods -:
+		
+			empty(variable) - is used to check whether the given variable is empty returns true if it is or false otherwise.
+			
+			exit() - is used to stop the script for the further operation.
+			
+			unset(variable) - is used to unset / remove the variable from the memory.
+			
+			isset(variable,...) - is used to check whether the given variable is set or created or not returns true if it is set or false ther.
+			
+			header(string value) - is used to send the raw of http information to the server and browser.
+			
+			die(string msg) - is used to display the error messages and stop the further execution of the code.
+			
+			
+		displaying server side authentication forms -:
+		
+			header("WWW-Authenticate: Basic Realm=subject");
+			
+		
+		redirecting users from one page to another -:
+		
+			header("location:url");
+			
+		
+		retrieving the user/password passed in the server side form -:
+		
+			$_SERVER['PHP_AUTH_USER'] - is used to return the user name passed in the form.
+			
+			$_SERVER['PHP_AUTH_PW'] - is used to return the password passed in the form.
+			
+			
+			
+	
+	Array - is a collection of multiple elements of same type.
+	
+		types of array -:
+		
+			i. Indexed array - values are stored in the form of index
+			
+			ii. Associative array - values are stored in key / value pair.
+			
+			iii. multi dimensional array - it contains arrays inside an array. 
+			
+			
+		syntax -: creating an indexed array
+		
+			$identifier = array(value,....);
+			
+			or
+			
+			$identifier[] = value;
+			
+			
+		displaying the output of an array -:
+		
+			print_r(array) - is used to print the given array.
+			
+			
+			
+		retrieving / changing the single item of an array -:
+		
+			$array[index]; // returns the value of given index.
+			
+			$array[index] = value; // changes / adds the values at given index.
+			
+			
+	creating associative array -:
+	
+		syntax -:
+		
+			$identifier = array("key"=>"value",...);
+			
+			or
+			
+			$identifier["key"] = value;
+	
+	
+	creating multi dimensional array -: array inside of an array is called multi dimensional array.
+	
+		
+		syntax -:
+		
+			$identifier = array(array(value,....),value,....);
+			
+methods -:
+	
+	
+	count(array,[int mode]) - is used to return the total number of element in given array.
+	
+	
+	range(low,high,[step]) - is used to create an array of given low or high values.
+	
+	
+	array_unshift(array,values,...) - is used to add the given value at the start of given array.
+	
+	array_push(array,values,...) - is used to add the given value at the end of given array.
+	
+	array_shift(array) - is used to remove the first element of an array and return that element.
+	
+	array_pop(array) - is used to remove the last element of an array and return that element.
+	
+	in_array(value,array) - is used to check whether the given value if in the array or not returns true if it is available or false otherwise.
+	
+	array_search(value,array) - is used to search the given value in the array and returns it key if value found or false otherwise.
+	
+	is_array(array) - is used to test whether the given value is an array or not returns true if it is or false otherwise.
+	
+	array_reverse(array) - is used to reverse the value of given array.
+	
+	array_flip(array) - is used to flip the key and values.
+	
+	sort(array) - is used to sort the array in lowest to highest value.
+	
+	rsort(array) - is used to sort the array in descending order.
+	
+	ksort(array) - is used to sort the in the ascending order on the basis of key.
+	
+	krsort(array) - is used to sort the array in the descending order on the basis of key.
+	
+	asort(array) - is used to sort the array from lowest to highest but it maintains / preserve the keys.
+	
+	arsort(array) - is used to sort the array in descending order and maintains / preserve the keys.
+	
+	array_slice(array,offset,[length]) - is used to extract the sub array from the given offset.
+	
+	array_splice(array,offset,[delete length,[replacement array]) - is used to remove / replace the value in the array.
+			

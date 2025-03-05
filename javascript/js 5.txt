@@ -1,0 +1,116 @@
+	
+		
+	working with strings / string manipulation-:
+	
+		syntax -: to create string object
+		
+			var identifier = "value";
+			
+			or
+			
+			var identifier = new String(value);
+
+			
+		methods / properties -:
+		
+		length - is used to return the total number of characters in the string.
+		
+		charAt(position) - is used to return the character at given position.
+		
+		charCodeAt(position) - is used to return the ASCII code of the character at given position.
+		
+		indexOf(character,[start]) - is used to return the index of given character from the start and returns -1 if the character could not found.
+		
+		lastIndexOf(chracter,[start]) - is used to return the index of given character of the last occurrence and returns -1 if the character could not found.
+		
+		search(character/expr) - is used to return the position / index of given character.
+		
+		toUpperCase() - is used to uppercase the string.
+		
+		toLowerCase() - is used to change the case of the string to lowercase.
+		
+		slice(start,[end]) - is used to extract the sub string from the given start and end index.
+		
+		substring(start,[end]) - is used to return / extract the sub string from the start and end offset / index.
+		
+		substr(start,[length]) - is used to extract the sub string from the given start and upto given length.
+		
+		replace(old,new) - is used to replace the old string with the new string and returns the new string.
+		
+		split(seperator,[length]) - is used to split / convert the string into an array from the given seperator. and returns the array
+		
+		toString() - is used to convert the object into string.
+		
+		match(pattern / string) - is used match the string with the given string or pattern and returns the matches.
+		
+		
+	
+	Regular Expression - is a pattern of characters to match with the string.
+		
+		syntax -: to create regular expression
+		
+			var identifier = new RegExp(pattern,flag or modifier);
+			
+			or
+			
+			var identifier = /pattern/flag or modifier
+			
+	
+		methods -:
+		
+			test(string) - is used to test the given string with the pattern and returns true if matches or false otherwise
+			
+			
+		modifier / flag -: are used to modify the behaviour of the pattern
+		
+			i	-	is used to case insensitive match
+			
+			g	-	is used for globally match the pattern
+			
+			m	-	is used for multiple line checking.
+		
+		
+		important brackets -:
+		
+			[]	- is used to define the range of characters to be used in the pattern.
+			
+				e.g. -:
+				
+					[arena] - it will match only abc character.
+					
+					[a-z] - it will match the character from a to z
+					
+					[0-9] - it will match only the numbers
+					
+			
+			() - is used to define the words to be used in the pattern
+				
+				e.g. -:
+				
+					(arena) - is used to match arena.
+					(arena|animation) - is used to match arena or animation.
+			
+			{} - it is repetition quantifier to handle how many times the pattern should repeat.
+		
+		
+		repetition qunatifiers -: are used to handle how many times the pattern should repeat.
+		
+			+		-  match the pattern one or more times.
+			
+			*		- match the pattern zero or more times.
+			
+			?		- match the pattern zero or one time.
+			
+			{n}		- match the pattern to given n number of time.
+			
+			{n,n1} - match the pattern minimum n and maximum n1 number of times.
+			
+			{n,} - match the pattern minimum n number of time and no maximum limit.
+		
+		
+		important characters -:
+		
+			^		- is used to match the pattern in the starting of the given string.
+			
+			$		- is used to match the pattern in the end of the given string.
+			

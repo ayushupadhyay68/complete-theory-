@@ -1,0 +1,34 @@
+handling file uploads -: is a process to handle the file upload from the user's machine and upload it to the server.
+	
+		$_FILES - it is a superglobal variable with five predefined element which contains the information about the uploaded file.
+			
+			$_FILES['file']['name'] - it contains the actual name of the file with the extension.
+			
+			$_FILES['file']['tmp_name'] - it contains the temporary name of the file.
+			
+			$_FILES['file']['size'] - it contains the size of the file in bytes.
+			
+			$_FILES['file']['type'] - it contains the MIME type of the file.
+			
+			$_FILES['file']['error'] - it contains the error related code 0 represents to success other represents to error.
+			
+
+			
+		methods -:
+		
+			is_uploaded_file(tempname) - is used to check whether the given file has been uploaded via the http post method or not. returns true if it is or false otherwise.
+			
+			
+			move_uploaded_file(tmpname,destination) - is used to move the uploaded file from the temporary directory to the destination directory.
+			
+		creating the form for uploading the files -:
+		
+			<form name="" method="post" enctype="multipart/form-data">
+			
+				<input type="file" name="file">
+				<input type="submit" name="upload" value="upload">
+			
+			
+			</form>
+			
+			

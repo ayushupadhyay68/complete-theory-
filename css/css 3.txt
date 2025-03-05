@@ -1,0 +1,85 @@
+			
+->	setting font/text styles -:
+	
+		font-family - is used to set the font for the selected element.
+		
+			values -: font name
+			
+		
+		font-weight - is used to set the wieght / boldness for the font.
+		
+			values -: bold | bolder | normal | lighter | 100 - 900
+			
+			
+		font-style - is used to set the style for the font.
+		
+			values -: italic | oblique | normal
+			
+		
+		font-size - is used to set the size of the font.
+		
+			values -: small | large | x-small | x-large | in px | in em | in %
+			
+				1em = 16px
+				
+		
+		text-decoration - is used to set the decoration of the text.
+		
+			values -: none | underline | overline | line-through
+			
+		
+		text-transform - is used to change the case of the font / text.
+		
+			values -: uppercase | lowercase | capitalize | normal
+			
+		
+		font-variant - is used to set the variation of the font.
+		
+			values -: normal | small-caps
+			
+		
+		line-height - is used to set the height of the line for providing the spaces between lines.
+		
+			values -: in px | in em
+			
+		
+		text-align - is used to set the Horizontal alignment of the text.
+		
+			values -: left | right | center | justify
+			
+		
+		text-align-last - is used to align the last line of the text to the given value.
+		
+			values -: left | right | center | justify
+			
+		
+		letter-spacing - is used to set the spaces between latters of the text.
+		
+			values -: in px | in em
+			
+		
+		word-spacing - is used to set the spacing between words of the text.
+		
+			values -: in px | in em
+			
+			
+		vertical-align - is used to set the vertical alignment of an element / text.
+		
+			values -: baseline | top | bottom | middle | sub | super | text-top | text-bottom
+			
+		
+		word-wrap - is used to handle the wrapping of the words of text.
+		
+			values -: break-word | normal
+			
+		color - is used to set the colour of the text / font.
+		
+			values -: colour name | colour code | rgb(red,green,blue) | rgba(red,green,blue,alpha [0-1])
+			
+			
+		display - is used to handle / set how the tag / element will be displayed in the browser.
+		
+			values -: none | block | inline | inline-block 
+			
+			
+			

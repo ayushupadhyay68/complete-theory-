@@ -1,0 +1,56 @@
+working with session / cookies -: session and cookies are used to store the small amount of information on the user's browser / machine.
+	
+		
+		Session Handling -: session stores the information on the user's machine till the browser is opened and destroys the information when browser is closed.
+		
+			
+			
+			session_start() - is used to start the session in the current php script.
+			
+			session_unset() - is used to remove the session from the user's machine.
+			
+			session_destroy() - is used to remove the session completely from the user's machine.
+			
+			unset(variable) - is used to remove / unset the given variable from the memory.
+			
+			
+		creating / retrieving the session variable -:
+		
+			$_SESSION - is a super global variable which is used to create / retrieve the information of  session variable.
+			
+				syntax -:
+				
+					$_SESSION['name'] = value; // creates the session variable of given name.
+					
+					$_SESSION['name']; // returns the value of the given session variable.
+			
+				 
+		cookies handling - cookies are stored in the user's machine till the expiration time.
+		
+			
+			setting the cookie -:
+				
+				setcookie() - is used to set the cookie in the user's browser / system
+				
+					syntax -:
+					
+						setcookie(name,value,expiry,path,domain,secure);
+						
+				
+			
+			retrieving the value of a cookie -:
+			
+				$_COOKIE - it is a super global variable which is used to retrieve the value of given cookie.
+				
+					syntax -:
+					
+						$_COOKIE['name']; 
+				
+						
+		
+	note-: there is no function / method to delete a cookie but we can remove the cookie by setting it again with past time.
+	
+		syntax -:
+		
+			setcookie(name,value,time() - 1000);
+			

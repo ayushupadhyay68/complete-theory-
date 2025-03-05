@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator</title>
+</head>
+
+<body>
+
+    <!--============================================================== Arithemetic Operators ================================================-->
+
+    <script>
+        let n1 = 10;
+        let n2 = 3;
+
+        document.writeln(n1 + n2);
+        document.writeln(n1 - n2);
+        document.writeln(n1 * n2);
+        document.writeln(n1 / n2);
+        document.writeln(n1 % n2);
+    </script>
+
+    <!-- =============================================================Assignment Operators===================================================-->
+
+    <script>
+        let a = 10;
+
+        // document.write(a += 40);
+        // document.write(a -= 40);
+        // document.write(a *= 40);
+        // document.write(a /= 40);
+        document.write(a %= 40);
+    </script>
+
+    <!--============================================================== Comparision Operators================================================ -->
+
+    <script>
+        let a1 = 10;
+        let a2 = 17;
+
+        document.writeln(a1 < a2);
+        document.writeln(a1 > a2);
+        document.writeln(a1 <= a2);
+        document.writeln(a1 >= a2);
+        document.writeln(a1 == a2);
+        document.writeln(a1 === a2);
+        document.writeln(a1 != a2);
+        document.writeln(a1 !== a2);
+    </script>
+
+    <!--============================================================ Logical Operators========================================================= -->
+
+    <script>
+
+        let h1 = 7;
+        let h2 = 9;
+
+        // And Operator
+
+        document.writeln(h1 < h2 && h1 != h2);
+        document.writeln(h1 > h2 && h1 != h2);
+        document.writeln(h1 < h2 && h1 == h2);
+        document.writeln(h1 >= h2 && h1 === h2);
+
+
+        // Or Operator
+
+        document.writeln(h1 < h2 || h1 != h2);
+        document.writeln(h1 > h2 || h1 != h2);
+        document.writeln(h1 < h2 || h1 == h2);
+        document.writeln(h1 >= h2 || h1 === h2);
+
+    </script>
+
+    <!--=============================================================== Concatenation Operator ==============================================-->
+
+    <script>
+
+        let name = "anshika";
+        name += "gupta";
+
+        document.write("Your Name=" + name);
+    </script>
+
+    <!--======================================== Unary/Increment & Decrement Operator =======================================================-->
+
+    <!-- Pre Increment/Decrement -->
+
+    <script>
+
+        let _a1 = 7;
+
+        document.writeln(++_a1);  //output = 8
+        document.writeln(--_a1);  //output = 7
+
+    </script>
+
+    <!-- Post Increment/Decrement -->
+
+    <script>
+
+        let _b1 = 9;
+
+        document.writeln(_b1++);  //output = 9
+        document.writeln(_b1++);  //output = 10
+        document.writeln(_b1--);  //output = 11
+        document.writeln(_b1--);  //output = 10
+        document.writeln(_b1++);  //output = 9
+        document.writeln(_b1-- +"<br>");  //output = 10
+    </script>
+
+    <!-- =============================================================Conditional/Ternary Operator============================================== -->
+
+
+    <script>
+
+        let a1_ = 8;
+
+        let b1_ = a1_ == "8" ? "yes" : "no";
+
+        document.write("Are You OK?" + b1_);
+
+
+    </script>
+
+
+<script src="js/core.js"></script>
+</body>
+
+</html>

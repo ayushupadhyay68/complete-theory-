@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOX Modeling</title>
+    <style>
+      .products {
+        background: orchid;
+      }
+      .product {
+        width: calc(25% - 22px);
+        background: white;
+        border: 1px solid black;
+        float: left;
+        margin: 10px;
+        height: 400px;
+        overflow: auto;
+      }
+
+      .product img {
+        width: 100%;
+      }
+
+      .product h3 {
+        background: #000;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        width: calc(100% - 20px);
+      }
+      .product p span {
+        background: red;
+        padding: 4px;
+      }
+
+      .product a {
+        background: greenyellow;
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+
+        display: block;
+      }
+
+      .clear {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="products">
+      <div class="product pro1">
+        <img src="images/product.webp" alt="" />
+        <h3>Jandoo1 Shampoo</h3>
+        <p>Price - <span>3000rs</span></p>
+        <a href="">Buy Now</a>
+      </div>
+      <div class="product pro2">
+        <img src="images/product.webp" alt="" />
+        <h3>Jandoo2 Shampoo</h3>
+        <p>Price - <span>3000rs</span></p>
+        <a href="">Buy Now</a>
+      </div>
+      <div class="product pro3">
+        <img src="images/product.webp" alt="" />
+        <h3>Jandoo3 Shampoo</h3>
+        <p>Price - <span>3000rs</span></p>
+        <a href="">Buy Now</a>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <!-- products end -->
+  </body>
+</html>

@@ -1,0 +1,184 @@
+Document Object (Document object model) - when the web page loads in the browser document object created by the browser which contains the information about the loaded page.
+	
+		methods / properties -: 
+		
+			getElementById(id) - is used to get / retrieve the element with given id.
+			
+			getElementsByClassName(class) - is used to return an array of the elements of given class name.
+			
+			getElementsByTagName(tag) - is used to return an array of the elements of given tag name.
+			
+			getElementsByName(name) - is used to return an array of elements of given name attribute.
+			
+			querySelector(selector) - is used to retrieve the first element of the selector type.
+			
+			querySelectorAll(selector) - it retrieves the array of given selector type.
+			
+				innerHTML - is used to change / retrieve the inner html content of an element.
+				
+				innerText - is used to change / retrieve the only the inner text of an element.
+				
+				setAttribute(attribute,value) - is used to set the given attribute with the given value to an element.
+				
+				getAttribute(attribute) - is used to retrieve the value of the given attribute for an element.
+				
+				removeAttribute(attributename) - it removes the given given attribute for target element in the DOM.
+
+			
+	
+		
+	Event Handling - is a process to bind the events with their handlers / code to perform operations on events.
+	
+		event - it is an activity performed by the user in the system, whenever user performs a task an event generates.
+		
+		event listener - is an interface / object which is used to execute the code on an event.
+		
+		event handler - it is the function / code which is to be executed on an event.
+		
+		
+  		types of events -:
+		
+			mouse events -:
+			
+			keyboard event -:
+			
+			form events -:
+			
+			window events -:
+			
+			other events -:
+			
+			
+		Mouse Events -: 
+		
+			event-			event listener -
+			
+			click			onclick
+			
+			double click 	ondblclick
+			
+			mouse over		onmouseover
+			
+			mouse out		onmouseout
+			
+			mouse enter		onmouseenter
+			
+			mouse leave		onmouseleave
+			
+			mouse move		onmousemove
+			
+			mouse up		onmouseup
+			
+			mouse down		onmousedown
+			
+			mouse wheel		onwheel
+			
+			
+		syntax -: to use events in the web page. 
+		
+			<tag eventslistener="code or handler">your html or text here</tag>
+			
+		this - it represents to the current object.	
+		
+	event object method/properties-:
+	
+		target - it represents to element which is being targeted.
+		
+		preventDefault() - is used to prevent the default action is the event object method.
+				
+			
+	window events -:
+
+		load			onload
+		
+		resize			onresize
+		
+	
+	keyboard events -: when user presses / performs any task with keyboard keys a keyboard event generates.keyboard keys are stored in the ASCII (American Standard Code for Information Interchange) code each key has its own code.
+		
+		key up			onkeyup
+		
+		key down		onkeydown
+		
+		key press		onkeypress
+		
+	retreving the ASCII code for the key board keys by using the property of event object.
+	
+		keyCode - is used to return the ASCII code for any available key on the keyborad.
+		
+		charCode - is used to return the Code for only the character keys when triggering the keypress event.
+		
+		which - is used to return the ASCII code for any available key on the keyboard and mouse buttons as well.
+			
+		
+		
+	form events -:
+	
+		submit			onsubmit
+		
+		reset			onreset
+		
+		focus			onfocus
+		
+		blur			onblur - when an object loses its focus blur event occurs
+		
+		change			onchange
+		
+	
+	form methods -:
+	
+		focus() - is used to set the focus on a form field.
+		
+		blur() - is used to remove / loses focus from the input field.
+		
+		
+		
+	Binding Event With their Handlers ->
+	
+		obj.addEventListener('event',function(){
+		
+			your Code TO BE WRITTEN HERE
+		
+		});
+		
+		
+	Unbinding / detaching /removing the event from an Object
+	
+	
+		obj.removeEventListener("event");
+		
+		
+	defining constant  -> are the values which can not be modified throught the execution of the program.
+	
+		const -> keyword is used to declare constant in javascript
+		
+		
+			e.g. ->
+			
+				const price = 100;
+				
+	
+	arrow functions -> 
+	
+		(a,b) => {
+			
+			document.write(a);
+		
+		}
+		
+	"use strict";
+	
+	var i = 20;
+	
+	
+	let i = 50;
+	
+	
+	let g = 20;
+	
+	
+	g = 40;
+	
+	
+	
+		

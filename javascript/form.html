@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Events</title>
+  </head>
+  <body>
+    <form method="post" action="" id="login_form" enctype="multipart/form-data">
+      username <input type="text" name="un" /> <br />
+      password <input type="password" name="pwd" /> <br />
+      <select name="" id="country_select">
+        <option value="http://www.google.com">India</option>
+        <option value="http://www.yahoo.com">Pakistan</option>
+        <option value="http://www.facebook.com">Australia</option>
+      </select>
+
+      gender <input type="radio" name="gender" value="Male">Male
+       <input type="radio" name="gender" value="female" checked>Female
+
+      <input type="submit" name="btnlogin" value="login" />
+      <input type="reset" name="btnreset" value=" Reset" />
+    </form>
+
+    <script>
+
+
+      window.document.querySelector("#country_select").addEventListener("change", (e) => {
+        
+        window.location = e.target.value;
+
+      });
+
+      document.querySelector("[name='un']").addEventListener("blur", (e) => {
+        e.target.setAttribute("style", "outline:2px solid black");
+      });
+
+      document.querySelector("[name='un']").addEventListener("change", (e) => {
+        document.body.style.backgroundColor = e.target.value;
+      });
+
+      document.querySelector("[name='un']").addEventListener("focus", (e) => {
+        e.target.setAttribute("style", "outline:2px solid green");
+        alert(document.querySelectorAll("[name='gender']")[0].checked);
+      });
+
+      document.querySelector("#login_form").addEventListener("submit", (e) => {
+        let un = document.querySelector("[name='un']");
+        let pwd = document.querySelector("[name='pwd']");
+
+        if (un.value == "") {
+          alert("Please Enter username");
+          un.focus();
+          e.preventDefault();
+          return false;
+        } else if (pwd.value == "") {
+          alert("Please Enter Password");
+          pwd.focus();
+          e.preventDefault();
+          return false;
+        }
+      }); // Submit FORM END
+
+      document.querySelector("#login_form").addEventListener("reset", (e) => {
+        let c = confirm("Do You Want to reset the form?");
+
+        if (!c) {
+          e.preventDefault();
+          return false;
+        }
+      }); // RESET FORM
+    </script>
+  </body>
+</html>

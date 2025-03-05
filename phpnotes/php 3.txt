@@ -1,0 +1,209 @@
+			
+	functions - are blocks of code which are used to provide code reusability.
+	
+		syntax -: 1. simple function
+		
+			function identifier(){
+				
+				function-body / your code to be written here
+			
+			}
+			
+		note - to run / execute the code of the function we need to call / invoke it by its name followed by parentheses.
+		
+			syntax -:
+			
+				identifier/functionname();
+				
+				
+		syntax -: 2. function with arguments - we can provide the value of function arguments while invoking the function.
+		
+			function identifier($arg1,$arg2,.....$argn){
+			
+				function-body			
+			
+			}
+			
+		syntax -: 3. function with returning values. - is used to return the value from the function to its caller.
+		
+			function identifier($arg1,$arg2,....$argn){
+				
+				function-body
+				
+				return value;
+			
+			}
+		
+		Comments - are used to deactivate a part of code and make the code more readable for others by providing documentation of the code.
+		
+			syntax -:
+			
+				// 1. single line comment
+				
+				/* 
+				
+					2.multiple line comment
+				
+				*/
+		
+	variable scope -: represents where the variable can be accessible after declaring in the script.
+	
+		i. local variable - which are defined inside of the function and can be use outside that function.
+		
+			e.g. -:
+			
+				function abc(){
+					
+					$a = 10; // local variable.
+				
+				}
+	
+		
+		ii. global variable - which are defined outside of the function and can be used any where in the php script.but to use the variable inside of the function we need to decalare it globally by using the gloabl keyword in the function.
+		
+			e.g. -:
+			
+				$a = 10; // global variable.
+				
+				function abc(){
+					
+					global $a; // declared as global inside the function
+					
+					echo $a; // prints 10
+				
+				
+				}
+	
+		iii. function parameters - which are defined in the function header thus can be used outside of the function.
+		
+			e.g. -:
+			
+				function abc($a,$b){
+				
+					
+				
+				}
+				
+		iv. static  variable - such variables which do not lose its value even after the execution of the program.
+		
+			syntax -:
+			
+				static $identifier = value;
+		
+			
+	
+	
+	Data types - are used to represents the type of value a variable contains or stores.
+	
+		types of data type -:
+		
+			i Scalar - which holds single value.
+			
+			ii. compound - which can hold more than one value.
+			
+			
+		1. scalar data types -:
+		
+			int or integer - represetns to whole numbers
+			
+			string	- sequence of characters with in double or single quote
+			
+			boolean - contains two values true or false
+			
+			float - represents to floating point number both the whole and fractional.
+			
+			double - same as float but with more length
+			
+			real - same as float but with more length in fractional numbers.
+			
+			
+		2. compound data types -:
+		
+			array -
+			
+			object -
+	
+		Data type casting - is the process to convert a data type into another data type.
+		
+			
+			type				operators
+			
+			
+			int					(int)
+			
+			string				(string)
+			
+			boolean				(boolean)
+			
+			float				(float)
+			
+			array				(array)
+			
+			object				(object)
+			
+			
+		syntax -:
+
+			$id = "10.50";
+			
+			$num = (integer) $id; 
+		
+			
+			
+	type related functions -:
+
+		gettype(variable) - returns the type of given varibale.
+		
+		settype(variable,type) - sets the type of given variable to given type.
+		
+		
+	type identifier functions - used to identify the type of the variable and returns true if it is of certain type or false otherwise.
+
+		syntax -:
+		
+			is_type(variable);
+			
+			
+		methods -:
+		
+			is_integer(varibale) -
+			
+			is_array(variable) -
+			
+			...
+			....
+			.....
+			
+			
+			
+	retreving the information about the server -
+	
+		$_SERVER - it is a super global variable defined in php which can be used anywhere in the php script.
+		
+			syntax -:
+			
+				$_SERVER['REMOTE_ADDR'] - returns the ip address
+	
+	
+				
+				
+	Retrieving value passed in the form using get/post request -:
+	
+		$_GET - used to retrieve the information passed through the get method of http or query string.
+		
+		$_POST - used to retrieve the information passed through the post method of http.
+		
+			syntax -:
+			
+				$_GET['fieldname']; // retrieve the value of given field.
+		
+	
+	file inclusion statements -:
+	
+		include(filepath) - is used to include the given page in the current script.
+		
+		include_once(filepath) - same as include but includes the file only if it is not already attached or linked.
+		
+		require(filepath) - is used to require / include the given page in the current script if the file could not be added then further execution will be stopped. 
+		
+		require_once(filepath) - same as require but includes the file only if it is not already linked or attached.  

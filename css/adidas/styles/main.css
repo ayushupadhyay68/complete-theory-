@@ -1,0 +1,71 @@
+a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+.container{
+
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+/* HEADER STYLES */
+
+.header{
+    background: rgb(164, 164, 164);
+    padding: 10px;
+}
+
+.header .logo{
+    float: left;
+    width: 100px;
+}
+
+.header .nav{
+    float: right;
+}
+.header .nav ul li{
+    float: left;
+    margin: 0 0 0 10px;
+}
+/* BANNER STYLES */
+
+.banner img{
+    width: 100%;
+}
+
+/* SIDEBAR STYLES */
+
+.sidebar{
+    width: 25%;
+    float: left;
+    background-color: rgb(194, 194, 194);
+}
+
+
+.main{
+    width: 75%;
+    float: left;
+    background: orange;
+}
+.main .products .product{
+    width: calc(33.33% - 10px);
+    background: white;
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+.main .products .product img{
+    width: 100%;
+}
+
+.footer{
+
+    background-color: black;
+    color: white;
+    padding: 40px 120px;
+    text-align: center;
+
+}

@@ -1,0 +1,94 @@
+
+	Array - is a collection of multiple elements of same type.
+	
+		types of array -:
+		
+			i. Indexed array - values are stored in the form of index
+			
+			ii. Associative array - values are stored in key / value pair.
+			
+			iii. multi dimensional array - it contains arrays inside an array. 
+			
+			
+		syntax -: creating an indexed array
+		
+			$identifier = array(value,....);
+			
+			or
+			
+			$identifier[] = value;
+			
+			
+		displaying the output of an array -:
+		
+			print_r(array) - is used to print the given array.
+			
+			
+			
+		retrieving / changing the single item of an array -:
+		
+			$array[index]; // returns the value of given index.
+			
+			$array[index] = value; // changes / adds the values at given index.
+			
+			
+	creating associative array -:
+	
+		syntax -:
+		
+			$identifier = array("key"=>"value",...);
+			
+			or
+			
+			$identifier["key"] = value;
+	
+	
+	creating multi dimensional array -: array inside of an array is called multi dimensional array.
+	
+		
+		syntax -:
+		
+			$identifier = array(array(value,....),value,....);
+			
+methods -:
+	
+	
+	count(array,[int mode]) - is used to return the total number of element in given array.
+	
+	
+	range(low,high,[step]) - is used to create an array of given low or high values.
+	
+	
+	array_unshift(array,values,...) - is used to add the given value at the start of given array.
+	
+	array_push(array,values,...) - is used to add the given value at the end of given array.
+	
+	array_shift(array) - is used to remove the first element of an array and return that element.
+	
+	array_pop(array) - is used to remove the last element of an array and return that element.
+	
+	in_array(value,array) - is used to check whether the given value if in the array or not returns true if it is available or false otherwise.
+	
+	array_search(value,array) - is used to search the given value in the array and returns it key if value found or false otherwise.
+	
+	is_array(array) - is used to test whether the given value is an array or not returns true if it is or false otherwise.
+	
+	array_reverse(array) - is used to reverse the value of given array.
+	
+	array_flip(array) - is used to flip the key and values.
+	
+	sort(array) - is used to sort the array in lowest to highest value.
+	
+	rsort(array) - is used to sort the array in descending order.
+	
+	ksort(array) - is used to sort the in the ascending order on the basis of key.
+	
+	krsort(array) - is used to sort the array in the descending order on the basis of key.
+	
+	asort(array) - is used to sort the array from lowest to highest but it maintains / preserve the keys.
+	
+	arsort(array) - is used to sort the array in descending order and maintains / preserve the keys.
+	
+	array_slice(array,offset,[length]) - is used to extract the sub array from the given offset.
+	
+	array_splice(array,offset,[delete length,[replacement array]) - is used to remove / replace the value in the array.

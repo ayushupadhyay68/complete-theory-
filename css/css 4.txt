@@ -1,0 +1,113 @@
+	working with background styles -:
+	
+		background-color - is used to set the background colour of an element.
+		
+			values -: colour name | colour code (hexadecimal) | rgb(0-255,0-255,0-255) | rgba(0-255,0-255,0-255,0-1)
+			
+		
+		background-image - is used to set the image in the background of an element.
+		
+			values -: url(image source);
+			
+		
+		background-repeat - is used to handle the repetition of the background image.
+		
+			 values -: no-repeat | repeat | repeat-x | repeat-y
+			 
+		
+		background-position - is used to set the horizontal and vertical position of the background image.
+		
+			values -: left | center | right | custom [for horizontal / x axis] --- | top | center | bottom | custom [for vertical / y axis]
+			
+		background-attachment - is used to set the attachment of the background image.
+			
+			values -: scroll | fixed
+			
+			
+		short hand property for background -:
+		
+		
+			background:color image repeat position-x position-y attachment;
+		
+		
+		
+		
+			
+	
+	setting border styles -:
+	
+		border-width - is used to set the width of the border.
+		
+			values -: thick | thin | custom
+			
+		
+		border-style - is used to set the style of the border.
+		
+			values -: solid | double | ridge | groove | inset | outset | dashed | dotted | none
+			
+		
+		border-color - is used to set the colour of the border.	
+		
+			values -: colour name | colour code (hexadecimal) | rgb() | rgba();
+			
+		
+		short hand property for border -:
+		
+			border:width style colour;
+			
+			border-top:width style colour;
+			
+			border-right: width style colour;
+			
+			border-bottom:width style colour;
+			
+			border-left: width style colour;
+			
+		
+		
+	setting outline styles -:
+	
+		outline-width - is used to set the width of the outline.
+			
+			values -: same as border
+			
+		
+		outline-style - is used to set the style of the colour.
+		
+			values -: same as border
+			
+			
+		outline-color - is used to set the colour of the outline.
+		
+			values -: same as border.
+			
+			
+		short hand property for the outline -:
+		
+			outline:color style width;
+		
+		
+	setting list style -:
+	
+		list-style-type - is used to set the list style type for the ordered and unordered list.
+		
+			values -: none | lower-alpha | upper-alpha | lower-roman | upper-roman | disk | square | circle
+			
+		
+		list-style-position - is used to set the position of the list style type.
+		
+			values -: inside | outside
+			
+		
+		list-style-image - is used to set the image for the list style.
+		
+			values -: url(image source)
+			
+			
+			
+	setting cursor for an element -:
+	
+		cursor - is used to set the cursor for an element / tag.
+		
+			values -: pointer | cross-hair | not-allowed | help | none
+			

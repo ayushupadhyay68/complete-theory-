@@ -1,0 +1,63 @@
+methods to extract number from the string -:
+	
+	
+		parseInt(value) - is used to extract the integer value from the given value.
+		
+		parseFloat(value) - is used to extract the float value from the given value.
+		
+		Number(value) - is used to convert the given value to the number.
+		
+	isNaN(value) - is used to check whether the given is NaN or not.
+		
+		
+	
+	working with math object -: 
+	
+		methods / properties -:
+		
+		min(num1,num2,.....numN) - is used to return the minimum number from the given numbers.
+		
+		max(num1,num2,....numN) - is used to return the maximum number from the given numbers.
+		
+		pow(x,y) - is used to calculate the given power of given number.
+		
+		random() - is used to return the random number from 0 to 1 and multiply with the number to increase the maximum range.
+		
+		floor(number) - is used to round off the given number to the nearest lower integer.
+		
+		ceil(number) - is used to round off the given number to the nearest bigger integer.
+		
+		round(number) - is used to round off the given number to the nearest integer.
+		
+		
+	syntax -:
+	
+		Math.method() / property;
+		
+		
+		
+		
+	working with date and time -:
+	
+		creating a date object -:
+		
+			var identifier = new Date(); // it contains all the information about the date and time.
+			
+		methods / properties -:
+			
+			getDate() - return the date.
+			
+			getDay() - return the day.
+			
+			getHours() - return the total hours.
+			
+			getMinutes() - return the total minutes.
+			
+			getSeconds() - return the total seconds.
+			
+			getMilliseconds() - return the total milliseconds.
+			
+			getMonth() - is used to return the month.
+			
+			getFullYear() - is used to return the four digit year.
+			

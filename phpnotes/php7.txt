@@ -1,0 +1,33 @@
+-> working with date and time -:
+	
+		
+		time() - is used to return the current timestamp.
+		
+		mktime(hours,minutes,seconds,month,date,year) - is used to return the current time stamp if nothing is passed in the parameter or creates the time stamp for the given parameters.
+		
+		
+		date_default_timezone_set(timezone) - is used to set the default timezone to given timezone.
+		
+		date_default_timezone_get() - it returns the default timezone of the server.
+		
+		date(format specifiers,[timestamp]) - is used to return the current date and time or date and time for given timestamp.
+
+			format specifier -:
+			
+				d - represents to the day
+				
+				m - represents to the month
+		
+				Y - represents to the four digit year
+				
+				h - represents to the hour
+				
+				i - represents to the minutes
+				
+				s - represents to the seconds
+				
+				a - represents to the ante meridiem or post meridiem.
+		
+		
+		
+		strtotime(string) - is used to convert given string into time.

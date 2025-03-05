@@ -1,0 +1,243 @@
+<!doctype html>
+
+	<html>
+	
+		<head>
+		
+			<title>user Sign Up Form</title>
+		
+		</head>
+		<body>
+		<header id="header">
+		
+		<img src="" alt="puma logo" id="logo">
+		
+		<nav id="navigation">
+		<ul>
+		
+			<li><a href="">Home</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Home</a></li>
+			<li><a href="">Home</a></li>
+			<li><a href="">Home</a></li>
+		
+		</ul>
+		</nav>
+		
+		</header>
+		
+		<!-- Header END -->
+		
+		
+		<div id="user_registration_form">
+			<form autocomplete="off" name="user_registration_form" action="thanks.html" method="post">
+			<table cellpadding="20" align="center" >
+				<caption>User Signup Form</caption>
+				<tr>
+					<td colspan="2" >
+				
+					<fieldset>
+						<legend>personal Details</legend>
+						<label for="fn">Firstname</label>
+						<input type="text" id="fn" pattern="admin"  name="fn" maxlength="10">
+						<label for="ln">Lastname</label>
+						<input type="text" id="ln" name="ln">
+						
+					</fieldset>
+					</td>
+				
+				</tr>
+				
+				<tr>
+				
+					<th>
+					
+						Username
+					
+					</th>
+					<td>
+					
+						<input type="text" required name="un" size="30" autocomplete="on">
+					
+					</td>
+				
+				</tr>
+				<tr>
+				
+					<th>
+					
+						Password
+					
+					</th>
+					<td>
+					
+						<input type="password" placeholder="Type Your Password Here" autofocus name="pwd">
+					
+					</td>
+				
+				</tr>
+				<tr>
+				
+					<th>
+					
+						Confirm password
+					
+					</th>
+					<td>
+					
+						<input disabled type="password" name="cpwd">
+					
+					</td>
+				
+				</tr>
+				<tr>
+				
+					<th>
+					
+						Gender
+					
+					</th>
+					<td>
+					
+						<input type="radio" id="male" value="male" name="gender"> <label for="male">Male</label>
+						<input type="radio" id="female" value="female" name="gender"><label for="female">female</label>
+						<input type="radio" id="other" value="other" name="gender"><label for="other">Others</label>
+					
+					</td>
+				
+				</tr>
+				<tr>
+				
+					<th>
+					
+						Hobbies
+					
+					</th>
+					<td>
+					
+						<input type="checkbox" value="cricket" name="hobby"> Playing Cricket
+						<input type="checkbox" value="book reading" name="hobby"> Book Reading
+						<br><input value="singing" type="checkbox" name="hobby"> Singing
+						<input name="watchingmovies" type="checkbox" name="hobby"> Watching Movies
+						
+					
+					</td>
+				
+				</tr>
+				<tr>
+				
+					<th>
+					
+						Upload Picture
+					
+					</th>
+					<td>
+					
+						<input type="file" multiple>
+					
+					</td>
+				
+				</tr>
+				<tr>
+				
+					<td></td>
+					<td>
+					
+						<input type="week" name="dob">
+						<input type="url">
+						<input type="search">
+						<input type="email">
+						<input type="range">
+						<input type="number" min="10" step="5" max="50">
+					
+					</td>
+				
+				</tr>
+				<tr>
+					
+					<th>Address</th>
+					<td>
+					
+						<textarea name="addr" rows="5"cols="20"></textarea>
+					
+					</td>
+				
+				</tr>
+				<tr>
+					
+					<th>State</th>
+					<th>
+						
+						<input list="state" name="state">
+						<datalist id="state">
+						
+							<option value="Uttar Pradesh"></option>
+							<option value="Uttrakhand"></option>
+							<option value="Delhi"></option>
+							<option value="Madhya Pradesh"></option>
+							<option value="Goa"></option>
+							<option value="Gujarat"></option>
+						
+						
+						</datalist>
+					
+					</th>
+				
+				</tr>
+				<tr>
+				
+					<th>Country</th>
+					<td>
+						
+						<select name="country" multiple>
+							
+							<option value="">Choose Country</option>
+							<optgroup label="Team A">
+							<option value="IND">India</option>
+							<option value="PAK">pakistan</option>
+							</optgroup>
+							<optgroup label="Team B">
+							<option value="Iran">Iran</option>
+							<option value="USA">United States of America</option>
+							</optgroup>
+						</select>
+					
+					</td>
+				
+				</tr>
+				<tr>
+				
+					<th>
+					
+						
+					
+					</th>
+					<td>
+					
+						<input type="submit">
+						<input type="image" src="images/btn-submit.avif" width="100" >
+						<input type="reset">
+					
+					</td>
+				
+				</tr>
+			
+			</table>
+			</form>
+			</div>
+			
+			<!-- User Registration form end -->
+			
+			<footer id="footer">
+			
+			
+			
+			
+			</footer>
+			
+			
+			
+		
+		</body>
+	
+	</html>

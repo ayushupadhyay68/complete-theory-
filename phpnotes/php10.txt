@@ -1,0 +1,21 @@
+
+	working with Math functions -:
+	
+		ceil(number) - rounds up the value to the nearest bigger integer.
+		
+		floor(number) - rounds down the value to the nearest lower integer.
+		
+		round(number,[precision]) - rounds the value to the nearest integer or given precision if given.
+		
+		mt_rand([min,max]) - returns the random number from min and maximum if given.
+		
+		
+		min(values,...or array) - returns the minimum number from the given value or array.
+		
+		max(values,...or array) - returns the maximum number from the given value or array.
+		
+		pow(x,y) - calculates the y power of x.
+		
+		pi() - returns the value of pi.
+		
+		is_nan(value) - checks whether the given value is number or not returns true if it is or false other wise

@@ -1,0 +1,122 @@
+javascript - it is a client side scripting language which is used to make the web page websites dynamic and interactive.
+
+	how to attach js in the web page -:
+	
+		<script></script> - is used to attach the js in the web page.it is placed in the head or body tag.
+			
+			attributes -:
+			
+				src - is used to provide the source of the external js file.
+				
+				type - is used to set the MIME type of the file.
+	
+		types of js -:
+		
+			i. internal js -:
+			
+				syntax -:
+				
+					<script>
+					
+						your js code goes here
+					
+					</script>
+					
+			ii. external js -: create a new file with .js extension and attach it in the script tag.
+			
+				syntax -:
+				
+					<script src="filename.js" type="text/javascript"></script>
+					
+					
+	displaying the output to the browser -:
+	
+		document.write(message) - is used to display the given message to the browser. 
+		
+		
+	variables - are used to store different - 2 values at different times. it is like a container to hold a value.
+	
+		syntax -: declaring / creating a variables
+		
+			var identifier = value;
+			var identifier;
+			
+			
+			let identifier = value;
+			
+			
+			
+			
+	Data Type - represents what type of value a variable or or an object can contain or contains.
+	
+		int or integer - for whole numbers like  8,- 10 
+		float - for numbers with fractional values  like 30.5 , -89.5
+		string - is sequence of characters with in double or single quotes.   "850"
+		boolean - contains two values either true or false.
+			
+			
+		e.g. -:
+		
+			var sid = 101; 
+			
+			var sname = "Varsha";
+			
+			var light_status = true;
+			
+	
+		identifier -  is the name of the functions, variable or an object by which we recognize them in the programming.
+		
+			rules for valid identifier -:
+			
+		i. identifier can contain only letters(a-z), numbers(0-9), dollar ($) sign and underscore ( _ ) character.
+		
+		ii. identifier can not be start with numbers.
+		
+		iii. identifier can not be a keyword or a reserve word.
+		
+		
+		 find the correct variables -:
+		 
+			var id1 = 100;
+			
+			var _name = "nitish verma";
+			
+			var name@1 = "help";
+			
+			var cal1_9 = "yes";
+			
+			var _id12 = 101;
+			
+			
+		displying the output the console panel ->
+		
+			console.log(message here);
+			
+		
+		displying the ERROR to the console panel ->
+		
+			console.error(message here);
+			
+			
+			
+	comments -: are used to deactivate a part of code or make the code more readable for other programmers.
+	
+		types of comment -:
+		
+			i. single line -:
+			
+				syntax -:
+				
+					// your comment here
+					
+					
+			
+			ii. multiple line -:
+			
+				syntax -:
+				
+					/*
+					
+						your comment here
+					
+					*/

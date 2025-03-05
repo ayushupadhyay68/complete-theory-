@@ -1,0 +1,82 @@
+
+
+	
+	setting the visibility of an element -:
+	
+		visibility - is used to handle the visibility of an element.
+		
+			values -: hidden | visible
+	
+	
+	setting the transparency / opacity -:
+	
+		opacity - is used to set the opacity/transparency for an element.
+		
+			values -: 0 to 1
+			
+		for older Browsers / IE browsers -:
+			
+			filter:alpha(opacity=0 - 100);
+					
+			
+			
+	
+	Box Modeling - is a process / concept of making an element look like as a box.
+	
+		width - is used to set the width of an element.
+		
+			values -: in px | in % | in em
+			
+		
+		height - is used to set the height of the an element.
+		
+			values -: in px | in % | in em
+		
+		
+		padding - is used to set the inside space for an elements -:
+		
+			properties -:
+			
+				padding-top - is used to set the padding from the top side.
+				
+				padding-right - is used to set the padding from the right side.
+				
+				padding-bottom - is used to set the padding from the bottom side.
+				
+				padding-left - is used to set the padding from the left side.
+				
+					values -: in px | in % | in em
+					
+			shorthand property for padding -:
+			
+				padding:value; // sets padding for all the side.
+				
+				padding:top/bottom left/right;
+				
+				padding:top right bottom left; // sets different padding for all the sides.
+				
+			
+		
+		margin - is used to set the outside space for an element.
+		
+			
+			properties -:
+			
+				margin-top - is used to set the margin from the top side.
+				
+				margin-right - is used to set the margin from the right side.
+				
+				margin-bottom - is used to set the margin from the bottom side.
+				
+				margin-left - is used to set the margin from the left side.
+				
+				values -: in px | in % | in em
+				
+			
+			shorthand property for margin -
+			
+				margin:value; // sets margin for all the sides. 
+				
+				margin:top/bottom left/right;
+				
+				margin:top right bottom left; // sets different margin for all the sides.

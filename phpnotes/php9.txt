@@ -1,0 +1,64 @@
+-> working with strings / handling string / string manipulation -:
+
+	strlen(string) - is used to return the length of the string.
+	
+	strcmp(string1, string 2) - is used to compare the string1 with the string 2 case sensitively 
+	and return the number-:
+
+			0 - if both strings are equal
+			
+			-1 - if string 1 is less
+			
+			1 - if string 2 is less
+			
+	
+	strcasecmp(string 1, string 2) - is used compare string case insensitively.and same as strcmp.
+		
+		
+	strtoupper(string) - is used convert the string into uppercase.
+	
+	strtolower(string) - is used to convert the string into lowercase.
+	
+	ucfirst(string) - is used to uppercase the first letter of the line.
+	
+	ucwords(string) - is used to uppercase the words.
+	
+	explode(delimiter, string,[length]) -is used to convert the string into arrays where the given delimiter found in the string.
+	
+	implode(glue,array) - is used to convert the array into string where the glue found.
+	
+	strrev(string) - is used to reverse the order of the string.
+	
+	strpos(string, needle) - is used to search the given needle value in the string and returns the position.
+	
+	
+	htmlentities(string) - convert the special symbols in html entities.
+		
+	ltrim(string) - is used to trim / remove the whitespace characters from the left side of the string.
+	
+	rtrim(string) - is used to remove the whitespace characters from the right side of the string.
+	
+	trim(string) - is used to remove the whitespace characters from the both side of the string.
+	
+	str_pad(string, pad length,[pad string],[pad_type]) - is used to pad the string to the given length with the given pad string and to the given pad type.
+	
+		pad type -:
+		
+			STR_PAD_RIGHT
+			STR_PAD_LEFT
+			STR_PAD_BOTH
+			
+			
+	str_replace(old,new,string,[count]) - is used to replace the old value with the new value in the given string.
+	
+	strip_tags(string,[allowed]) - is used to remove all the tags except allowed with in the string.
+	
+	str_word_count(string) - is used to return the total number of words in the string.
+	
+	substr(string,start,[length]) - used to return the substring from the start offset and upto given length if given.
+			 
+	md5(string) - is used to calculate the md5 hashing algorithm.
+	
+	sha1(string) - is used to calculate the sha1 hashing algorithm.
+	
+	crypt(string,[salt]) - is used for one way hashing technique.

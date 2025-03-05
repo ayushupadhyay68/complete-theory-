@@ -1,0 +1,89 @@
+HTML - stands for hypertext markup language which is used to create web pages and website.it is collection of predefinend tags / elements.
+	
+	Requirements -:
+	
+		i. Code Editor -: notepad / notepad++ / atom / sublime / brackets / Net Beans / Eclipse / Dream Weaver / Visual Studio Code
+			
+		ii. O.S. - Windows / Macintosh / Linux 
+		
+		iii. Browser - Google Chrome / Apple Safari / Mozilla Firefox / Internet Explorer / Microsoft  Edge / Opera 
+		
+		
+	File Type -> html
+	
+	extension -> .html or .htm
+	
+	save - filename.html or filename.htm
+	
+	-> Structure for HTML5
+	
+	<!doctype html>
+	
+		<html>
+		
+			<head>
+			
+				Head Tags goes here
+			
+			</head>
+			<body>
+			
+				Body Tags Goes here
+			
+			</body>
+		
+		</html>
+	
+	
+	head section - it contains tags / elements which contains the information about the web page and connects the web page with other resources and technologies.
+	
+	body section - it contains tags / elements which displays the information to the browser.
+	
+	
+	<title></title> - is used to display the title / name of the web page to the title bar of the browser.it is placed in the head section of the html document.
+	
+	
+	displying heading in the web page -:
+	
+		there is six levels of heading -
+		
+	
+			<h1></h1>
+			<h2></h2>
+			<h3></h3>
+			<h4></h4>
+			<h5></h5>
+			<h6></h6>
+		
+	
+	displaying paragraph in the web page -:
+		
+		<p></p> - 
+		
+	
+	
+	<br> - it is a break tag / element which adds a line break.
+	
+	<hr> - it is horizontal rule tag / element which divides the content into section look like.
+
+
+
+formatting elements -:
+	
+	<b></b> - it is bold tag / element
+	<i></i> - it is italic tag / element
+	<u></u> - it is underline tag / element
+	<strong></strong> - it is strong tag / element works as <b> tag.
+	<em></em> - it is em tag / element works as <i> tag.
+	<small></small> - is used to set the font size small.
+	<big></big> - is used to set the font size bigger.
+	<sup></sup> - it is superscript tag.
+	<sub></sub> - it is subscript tag.
+	<kbd></kbd> - it is keyboard tag to display keyboard input
+	<code></code> - it is code tag to display the computer code
+	<samp></samp> - it is samp tag to display the sample computer code
+	<ins></ins> - it is insert tag to display the newly added content.
+	<del></del> - it is delete tag to display the removed / delete content.
+	<pre></pre> - it is preformatted tag / element which displays the content as it is written in the web page.
+	<mark></mark> - is used to highlight the wrapped content in the web page.
+	
